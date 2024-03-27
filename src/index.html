@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/animate.css">
   <link rel="shortcut icon" type="image/x-icon" href="../assets/images/logo.png">
   <title>WEBSITE SCHOOL</title>
   <style>
@@ -107,9 +108,9 @@
   <header class="relative px-10" style="background-image: url('../assets/images/home-bg.jpg');">
     <div class="flex justify-between items-center flex-row ">
       <div class="hero__info flex justify-start items-start flex-col gap-4 mt-40">
-        <h1 class="text-third-color font-bold text-6xl"> مرحبا في <span class="text-primary-color"> مدرسة الفكر العلمي </span></h1>
-        <span class="font-semibold text-third-color text-2xl">نلعب لنتعلَّم , نشارك لنفهم , نجرِّب لنبدع</span>
-        <span class="text-fourth-color font-medium font-lg"> شارك معنا في رحلة مميزة من التعلم والتشويق </span>
+        <h1 class="text-third-color font-bold text-6xl  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.5s"> مرحبا في <span class="text-primary-color"> مدرسة الفكر العلمي </span></h1>
+        <span class="font-semibold text-third-color text-2xl  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.6s">نلعب لنتعلَّم , نشارك لنفهم , نجرِّب لنبدع</span>
+        <span class="text-fourth-color font-medium font-lg  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.7s"> شارك معنا في رحلة مميزة من التعلم والتشويق </span>
         <div class="video-icon relative pt-20 !pr-12 " data-bs-toggle="modal" data-bs-target="#videoModel">
           <a class="btn-icon" href="#">
             <svg width="35" height="35" viewBox="0 0 24 24" fill="nnoe" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +119,7 @@
           </a>
         </div>
       </div>
-      <div class="hero__img z-50 mt-80" style="margin-top: 302px;">
+      <div class="hero__img z-50 mt-80 wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay="0.5s" style="margin-top: 302px;">
         <img src="../assets/images/hero-img.webp" alt="">
       </div>
     </div>
@@ -140,7 +141,7 @@
   </header>
 
   <section class="flex justify-between items-center gap-7 flex-row px-10 relative -top-[60px] z-50">
-    <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full">
+    <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
       <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#ECEDFF] flex justify-center items-center">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path opacity="0.4" d="M6 18V10M10 18V10M14 18V10M18 18V10" stroke="#525fe1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -152,7 +153,7 @@
         <span class="text-fourth-color font-semibold text-md">مدرسة</span>
       </div>
     </div>
-    <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full">
+    <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
       <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#FDF3FA] flex justify-center items-center">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path opacity="0.4" d="M22 6.2C22 5.07989 22 4.51984 21.782 4.09202C21.5903 3.71569 21.2843 3.40973 20.908 3.21799C20.4802 3 19.9201 3 18.8 3H18.4C16.1598 3 15.0397 3 14.184 3.43597C13.4314 3.81947 12.8195 4.43139 12.436 5.18404C12 6.03968 12 7.15979 12 9.4V21L12.1001 20.8499C12.7947 19.808 13.142 19.287 13.6009 18.9098C14.0071 18.5759 14.4752 18.3254 14.9784 18.1726C15.5467 18 16.1729 18 17.4252 18H18.8C19.9201 18 20.4802 18 20.908 17.782C21.2843 17.5903 21.5903 17.2843 21.782 16.908C22 16.4802 22 15.9201 22 14.8V6.2Z" stroke="#57216C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -164,7 +165,7 @@
         <span class="text-fourth-color font-semibold text-md">محاضرة أونلاين</span>
       </div>
     </div>
-    <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full">
+    <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.7s">
       <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#FFEFEE] flex justify-center items-center">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path opacity="0.4" d="M16 6L18 8L22 4" stroke="#F26B65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -176,7 +177,7 @@
         <span class="text-fourth-color font-semibold text-md">أستاذ</span>
       </div>
     </div>
-    <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full">
+    <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.8s">
       <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#EAFEFF] flex justify-center items-center">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path opacity="0.4" d="M16 3.46777C17.4817 4.20412 18.5 5.73315 18.5 7.50001C18.5 9.26687 17.4817 10.7959 16 11.5323M18 16.7664C19.5115 17.4504 20.8725 18.565 22 20" stroke="#448BB7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -191,21 +192,21 @@
   </section>
 
   <section class="offers__ flex justify-center items-center flex-row gap-5 px-44 pt-10">
-    <div class="offer__item flex justify-start items-start flex-row gap-3 !bg-[#ffaf40] rounded-md">
+    <div class="offer__item flex justify-start items-start flex-row gap-3 !bg-[#ffaf40] rounded-md wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
       <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
       <div class="flex justify-start items-start flex-col gap-2">
         <h3 class="text-white font-semibold text-xl">أساس</h3>
         <p class="text-white font-medium text-sm">تعليم - لعب - ابتكار</p>
       </div>
     </div>
-    <div class="offer__item flex justify-start items-start flex-row gap-3 !bg-[#ffaf40] rounded-md">
+    <div class="offer__item flex justify-start items-start flex-row gap-3 !bg-[#ffaf40] rounded-md wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.7s">
       <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
       <div class="flex justify-start items-start flex-col gap-2">
         <h3 class="text-white font-semibold text-xl">متوسط </h3>
         <p class="text-white font-medium text-sm w-36">نصنع المستقبل مع أبناءنا الطلاب فى المتوسط</p>
       </div>
     </div>
-    <div class="offer__item flex justify-start items-start flex-row gap-3 !bg-[#ffaf40] rounded-md">
+    <div class="offer__item flex justify-start items-start flex-row gap-3 !bg-[#ffaf40] rounded-md wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.8s">
       <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
       <div class="flex justify-start items-start flex-col gap-2">
         <h3 class="text-white font-semibold text-xl">ثانوى </h3>
@@ -218,33 +219,33 @@
     <div class="row">
       <div class="col-md-6">
         <div class="about_us_info flex justify-start items-start flex-col gap-4 !pt-20">
-          <h3 class="text-primary-color font-bold font-3xl">نحن نقدم لك التعليم عن بعد في جميع أنحاء الوطن العربي</h3>
-          <p class="text-fourth-color font-medium font-md leading-[1.9]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ </p>
+          <h3 class="text-primary-color font-bold font-3xl wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">نحن نقدم لك التعليم عن بعد في جميع أنحاء الوطن العربي</h3>
+          <p class="text-fourth-color font-medium font-md leading-[1.9] wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ </p>
           <ul class="flex justify-start items-start flex-col gap-3">
-            <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm">
+            <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 6L9 17L4 12" stroke="#400A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               نقدم لك 1200+  محاضرات في جميع المراحل المختلفة 
               </li>
-            <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm">
+            <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 6L9 17L4 12" stroke="#400A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               نقدم لك القارئ الذكي المتميز  
               </li>
-            <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm"> 
+            <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s"> 
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 6L9 17L4 12" stroke="#400A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               إمتحانات و إختبارات دورية 
               </li>
           </ul>
-          <a href="" class="bg-primary-color text-white py-3 px-16 flex justify-center items-center font-medium font-md rounded-full hover:bg-second-color hover:!text-primary-color hover:font-bold"> إقرأ المزيد </a>
+          <a href="" class="bg-primary-color text-white py-3 px-16 flex justify-center items-center font-medium font-md rounded-full hover:bg-second-color hover:!text-primary-color hover:font-bold wow fadeIn" data-wow-duration="0.9s" data-wow-delay="0.9s"> إقرأ المزيد </a>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="about_us_img">
+        <div class="about_us_img wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
           <img src="../assets/images/review.png" alt="about us img" loading="lazy">
         </div>
       </div>
@@ -257,13 +258,13 @@
   </svg>
   <section class="features__school pt-16 px-10 bg-second-color">
     <div class="title flex justify-center items-center flex-col gap-1  m-auto ">
-      <h2 class="text-primary-color font-bold text-4xl"> مميزات مدرسة الفكر العلمي </h2>
-      <p class="text-fourth-color font-medium text-[15px] w-[350px] text-center leading-[1.8]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+      <h2 class="text-primary-color font-bold text-4xl  wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s"> مميزات مدرسة الفكر العلمي </h2>
+      <p class="text-fourth-color font-medium text-[15px] w-[350px] text-center leading-[1.8]  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
     </div>
     <div class="feature__school mt-5">
       <div class="row">
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h1-icon-1.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">تعليم مبكِّر</h3>
@@ -274,7 +275,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h1-icon-2.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">التعلُّم السريع المتقَن</h3>
@@ -285,7 +286,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h1-icon-3.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">
@@ -298,7 +299,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h1-icon-4.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">
@@ -311,7 +312,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h1-icon-5.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">
@@ -324,7 +325,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h1-icon-6.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">
@@ -337,7 +338,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h2-icon-1.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">
@@ -350,7 +351,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h2-icon-2.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">
@@ -363,7 +364,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5">
+          <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
             <div class="flex justify-start items-center flex-row gap-3 align-items-end">
               <img src="../assets/images/h2-icon-3.png" alt="feature" loading="lazy">
               <h3 class="text-primary-color font-semibold text-[17px]">القارئ الذكي</h3>
@@ -380,18 +381,18 @@
 
   <section class="falsfa__ px-44">
     <div class="title flex justify-center items-center flex-row">
-      <h2 class="text-primary-color font-bold text-4xl mb-5"> فلسفة مدرستنا </h2>
+      <h2 class="text-primary-color font-bold text-4xl mb-5   wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s"> فلسفة مدرستنا </h2>
     </div>
     <div class="row">
       <div class="col-md-6">
         <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <button class="nav-link active" id="v-pills-intellegance-tab" data-bs-toggle="pill" data-bs-target="#v-pills-intellegance" type="button" role="tab" aria-controls="v-pills-intellegance" aria-selected="true">
+          <button class="nav-link active  wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s" id="v-pills-intellegance-tab" data-bs-toggle="pill" data-bs-target="#v-pills-intellegance" type="button" role="tab" aria-controls="v-pills-intellegance" aria-selected="true">
             <h3 class="text-primary-color font-semibold text-lg">
               مراعاة الذكاءات المتعدِّدة
             </h3>
             <span class="text-fourth-color font-medium text-sm"> كلُّ طفلٍ يفكِّر ويتعلَّم بطريقة مختلفة عن الآخر، ولذلك صُمِّمت مناهِجُنا لتراعي نظريَّة الذكاءات المتعدِّدة لدى كلِّ طفل، وتنمِّيها من خلال فيديوهات مرئية وسمعيَّة وصورٍ وألعابٍ والعديدِ من الأنشطةِ المليئة بالَّلعب والمرح، حيث أنَّ أنواع الذكاءات لا تعمل بشكل منفرد؛ بل تعمل بشكلٍ مُتكامِل لإنجاز أيِّ أمرٍ بسيط. </span>
         </button>
-          <button class="nav-link" id="v-pills-creative-tab" data-bs-toggle="pill" data-bs-target="#v-pills-creative" type="button" role="tab" aria-controls="v-pills-creative" aria-selected="false"> 
+          <button class="nav-link  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s" id="v-pills-creative-tab" data-bs-toggle="pill" data-bs-target="#v-pills-creative" type="button" role="tab" aria-controls="v-pills-creative" aria-selected="false"> 
             <h3 class="text-primary-color font-semibold text-lg">  
               التعلَّم والتربية الإبداعيَّة 
             </h3>
@@ -399,7 +400,7 @@
               يعتمد أسلوب التعليم لدينا على التربية الإبداعيَّة التي تدعم تعبير الطفل المتعلِّم بحريَّة عن ذاته، وهو يتعلَّم من خلال تحفيزِ وتشجيعِ المعلمة للطلاب على المشاركة والتعبير عن أفكارهم وآرائهم عن طريق أنشطةٍ تساعد العقل على التجديد والابتكار.
             </span>
           </button>
-          <button class="nav-link" id="v-pills-skills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-skills" aria-selected="false"> 
+          <button class="nav-link  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s" id="v-pills-skills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-skills" aria-selected="false"> 
             <h3 class="text-primary-color font-semibold text-lg">
               اكتساب مهارات الحياة
             </h3>
@@ -407,7 +408,7 @@
               من خلال اكتساب مهاراتِ التفكير النقدي والمنطقي؛ ليكون الطفلُ ناجحاً فاعلاً في مدرسة الحياة، وذلك عن طريق التنويع في الأساليب والطرق المستخدمة في تقديم المعلومة (التعلم النشط)، والإكثار من الأسئلة المفتوحة
             </span>
          </button>
-          <button class="nav-link" id="v-pills-lang-tab" data-bs-toggle="pill" data-bs-target="#v-pills-lang" type="button" role="tab" aria-controls="v-pills-lang" aria-selected="false">
+          <button class="nav-link  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s" id="v-pills-lang-tab" data-bs-toggle="pill" data-bs-target="#v-pills-lang" type="button" role="tab" aria-controls="v-pills-lang" aria-selected="false">
             <h3 class="text-primary-color font-semibold text-lg">
               الانغماس اللغوي
             </h3>
@@ -438,47 +439,47 @@
 
   <section class="discover" style="background-image: url('../assets/images/home-bg.jpg');">
     <div class="title flex justify-center items-center flex-col gap-1 m-auto mb-5">
-      <h2 class="text-primary-color font-bold text-4xl"> استكشف معنا أهم ما يميزنا </h2>
-      <p class="text-fourth-color font-medium text-[15px] w-[350px] text-center leading-[1.8]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+      <h2 class="text-primary-color font-bold text-4xl  wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s"> استكشف معنا أهم ما يميزنا </h2>
+      <p class="text-fourth-color font-medium text-[15px] w-[350px] text-center leading-[1.8]  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
     </div>
     <div class="dicover__items flex justify-center items-center flex-row flex-wrap gap-3">
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.7s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e2.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.7s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e3.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.7s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e4.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.8s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e5.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.8s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e6.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.8s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e7.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.9s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e8.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.9s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e9.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.9s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e3.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
-      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center gap-1">
+      <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.9s">
         <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
         <img src="../assets/images/e2.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
       </div>
@@ -487,25 +488,25 @@
 
   <section class="what_we_provide px-10 pt-16 bg-[#F3F2EC]">
     <div class="title flex justify-center items-center flex-col gap-1 m-auto mb-5">
-      <h2 class="text-primary-color font-bold text-4xl"> مميزات مدرسة الفكر العلمي </h2>
-      <p class="text-fourth-color font-medium text-[15px] w-[350px] text-center leading-[1.8]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+      <h2 class="text-primary-color font-bold text-4xl wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s"> مميزات مدرسة الفكر العلمي </h2>
+      <p class="text-fourth-color font-medium text-[15px] w-[350px] text-center leading-[1.8] wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <div class="img">
+        <div class="img wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.6s">
           <img src="../assets/images/h6-slide-image-3-removebg-preview.png" alt="">
         </div>
       </div>
       <div class="col-md-6">
         <div class="flex justify-center items-center flex-row">
-          <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%] mb-5">
+          <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%] mb-5 wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
             <div class="flex justify-start items-start flex-col gap-2">
               <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
               <h3 class="text-primary-color font-semibold text-lg">القارئ الذكي</h3>
               <p  class="text-second-color font-medium text-sm"> هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ</p>
             </div>
           </div>
-          <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%] mb-5">
+          <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%] mb-5 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
             <div class="flex justify-start items-start flex-col gap-2">
               <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
               <h3 class="text-primary-color font-semibold text-lg">القارئ الذكي</h3>
@@ -514,14 +515,14 @@
           </div>
         </div>
         <div class="flex justify-center items-center flex-row">
-          <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%]">
+          <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%] wow fadeIn" data-wow-duration="0.9s" data-wow-delay="0.9s">
             <div class="flex justify-start items-start flex-col gap-2">
               <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
               <h3 class="text-primary-color font-semibold text-lg">القارئ الذكي</h3>
               <p  class="text-second-color font-medium text-sm"> هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ</p>
             </div>
           </div>
-          <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%]">
+          <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%] wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
             <div class="flex justify-start items-start flex-col gap-2">
               <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
               <h3 class="text-primary-color font-semibold text-lg">القارئ الذكي</h3>
@@ -535,12 +536,12 @@
 
   <section class="you_will_get relative">
     <div class="title flex justify-center items-center flex-col gap-1 m-auto relative !z-50">
-      <h2 class="text-second-color font-bold text-4xl relative !z-50"> ستحصل معنا على </h2>
+      <h2 class="text-second-color font-bold text-4xl relative !z-50 wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s"> ستحصل معنا على </h2>
     </div>
     <div class="get__items">
       <div class="row">
         <div class="col-md-4">
-          <div class="get__item flex justify-center items-center flex-col gap-4">
+          <div class="get__item flex justify-center items-center flex-col gap-4 wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.6s">
             <div class="icon_box h-20 w-20 rounded-md bg-primary-color border border-solid border-second-color flex justify-center items-center flex-row">
               <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.4" d="M4 9.5V16.3066C4 16.6785 4 16.8645 4.05802 17.0273C4.10931 17.1712 4.1929 17.3015 4.30238 17.4081C4.42621 17.5287 4.59527 17.6062 4.93335 17.7611L11.3334 20.6945C11.5786 20.8069 11.7012 20.8631 11.8289 20.8852C11.9421 20.9049 12.0579 20.9049 12.1711 20.8852C12.2988 20.8631 12.4214 20.8069 12.6666 20.6945L19.0666 17.7611C19.4047 17.6062 19.5738 17.5287 19.6976 17.4081C19.8071 17.3015 19.8907 17.1712 19.942 17.0273C20 16.8645 20 16.6785 20 16.3066V9.5" stroke="#F2E8D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -554,7 +555,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="get__item flex justify-center items-center flex-col gap-4 ">
+          <div class="get__item flex justify-center items-center flex-col gap-4 wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
             <div class="icon_box h-20 w-20 rounded-md bg-primary-color border border-solid border-second-color flex justify-center items-center flex-row">
               <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.4" d="M4 9.5V16.3066C4 16.6785 4 16.8645 4.05802 17.0273C4.10931 17.1712 4.1929 17.3015 4.30238 17.4081C4.42621 17.5287 4.59527 17.6062 4.93335 17.7611L11.3334 20.6945C11.5786 20.8069 11.7012 20.8631 11.8289 20.8852C11.9421 20.9049 12.0579 20.9049 12.1711 20.8852C12.2988 20.8631 12.4214 20.8069 12.6666 20.6945L19.0666 17.7611C19.4047 17.6062 19.5738 17.5287 19.6976 17.4081C19.8071 17.3015 19.8907 17.1712 19.942 17.0273C20 16.8645 20 16.6785 20 16.3066V9.5" stroke="#F2E8D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -568,7 +569,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="get__item get__item_3 flex justify-center items-center flex-col gap-4">
+          <div class="get__item get__item_3 flex justify-center items-center flex-col gap-4 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
             <div class="icon_box h-20 w-20 rounded-md bg-primary-color border border-solid border-second-color flex justify-center items-center flex-row">
               <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.4" d="M4 9.5V16.3066C4 16.6785 4 16.8645 4.05802 17.0273C4.10931 17.1712 4.1929 17.3015 4.30238 17.4081C4.42621 17.5287 4.59527 17.6062 4.93335 17.7611L11.3334 20.6945C11.5786 20.8069 11.7012 20.8631 11.8289 20.8852C11.9421 20.9049 12.0579 20.9049 12.1711 20.8852C12.2988 20.8631 12.4214 20.8069 12.6666 20.6945L19.0666 17.7611C19.4047 17.6062 19.5738 17.5287 19.6976 17.4081C19.8071 17.3015 19.8907 17.1712 19.942 17.0273C20 16.8645 20 16.6785 20 16.3066V9.5" stroke="#F2E8D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -582,7 +583,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="get__item flex justify-center items-center flex-col gap-4">
+          <div class="get__item flex justify-center items-center flex-col gap-4 wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.6s">
             <div class="icon_box h-20 w-20 rounded-md bg-primary-color border border-solid border-second-color flex justify-center items-center flex-row">
               <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.4" d="M4 9.5V16.3066C4 16.6785 4 16.8645 4.05802 17.0273C4.10931 17.1712 4.1929 17.3015 4.30238 17.4081C4.42621 17.5287 4.59527 17.6062 4.93335 17.7611L11.3334 20.6945C11.5786 20.8069 11.7012 20.8631 11.8289 20.8852C11.9421 20.9049 12.0579 20.9049 12.1711 20.8852C12.2988 20.8631 12.4214 20.8069 12.6666 20.6945L19.0666 17.7611C19.4047 17.6062 19.5738 17.5287 19.6976 17.4081C19.8071 17.3015 19.8907 17.1712 19.942 17.0273C20 16.8645 20 16.6785 20 16.3066V9.5" stroke="#F2E8D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -596,7 +597,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="get__item flex justify-center items-center flex-col gap-4">
+          <div class="get__item flex justify-center items-center flex-col gap-4 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
             <div class="icon_box h-20 w-20 rounded-md bg-primary-color border border-solid border-second-color flex justify-center items-center flex-row">
               <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.4" d="M4 9.5V16.3066C4 16.6785 4 16.8645 4.05802 17.0273C4.10931 17.1712 4.1929 17.3015 4.30238 17.4081C4.42621 17.5287 4.59527 17.6062 4.93335 17.7611L11.3334 20.6945C11.5786 20.8069 11.7012 20.8631 11.8289 20.8852C11.9421 20.9049 12.0579 20.9049 12.1711 20.8852C12.2988 20.8631 12.4214 20.8069 12.6666 20.6945L19.0666 17.7611C19.4047 17.6062 19.5738 17.5287 19.6976 17.4081C19.8071 17.3015 19.8907 17.1712 19.942 17.0273C20 16.8645 20 16.6785 20 16.3066V9.5" stroke="#F2E8D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -610,7 +611,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="get__item get__item_6 flex justify-center items-center flex-col gap-4">
+          <div class="get__item get__item_6 flex justify-center items-center flex-col gap-4 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
             <div class="icon_box h-20 w-20 rounded-md bg-primary-color border border-solid border-second-color flex justify-center items-center flex-row">
               <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.4" d="M4 9.5V16.3066C4 16.6785 4 16.8645 4.05802 17.0273C4.10931 17.1712 4.1929 17.3015 4.30238 17.4081C4.42621 17.5287 4.59527 17.6062 4.93335 17.7611L11.3334 20.6945C11.5786 20.8069 11.7012 20.8631 11.8289 20.8852C11.9421 20.9049 12.0579 20.9049 12.1711 20.8852C12.2988 20.8631 12.4214 20.8069 12.6666 20.6945L19.0666 17.7611C19.4047 17.6062 19.5738 17.5287 19.6976 17.4081C19.8071 17.3015 19.8907 17.1712 19.942 17.0273C20 16.8645 20 16.6785 20 16.3066V9.5" stroke="#F2E8D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -692,7 +693,6 @@
       </div>
     </div>
   </section>
-
 
   <section class="faq px-44 pt-16">
     <div class="title flex justify-center items-center flex-row">
@@ -917,6 +917,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../assets/js/main.js"></script>
   <script>
+    new WOW().init();
+  </script>
+ <script>
     $('.owl-carousel.partenres_carousal').owlCarousel({
     loop: true,
     autoplay: true,

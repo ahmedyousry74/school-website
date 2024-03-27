@@ -568,6 +568,31 @@ input[type=checkbox]:checked {
   filter: brightness(0) invert(1) grayscale(1);
 }
 
+.discover {
+  padding: 150px;
+}
+.discover .title {
+  width: 800px;
+}
+.discover .discover__item {
+  padding: 8px 15px;
+  width: 212px;
+  transition: 0.3s ease-in-out all;
+}
+.discover .discover__item img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 4px solid #ECEDFF;
+}
+.discover .discover__item:hover {
+  border: 6px solid #F2E8D5 !important;
+  background-color: #400A0A !important;
+}
+.discover .discover__item:hover span {
+  color: #F2E8D5;
+}
+
 nav {
   background-color: transparent;
   width: 100%;

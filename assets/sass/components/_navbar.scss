@@ -1,0 +1,106 @@
+nav{
+    background-color: transparent;
+    width: 100%;
+    z-index: 999999;
+    padding: 0 40px;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    width: 100%;
+    .colse_{
+        filter: invert(1);
+    }
+    .offcanvas-body{
+        .navbar-brand{
+            img{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+        ul{
+            gap: 8px;
+            .nav-item {
+                .nav-link {
+                    color: $third-color;
+                    font-weight: 500;
+                    font-size: 15px;
+                    transition: 0.3s ease-in-out all;
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        background-color: $primary-color;
+                        width: 35px;
+                        height: 2px;
+                        top: 40px;
+                        right: 10px;
+                        opacity: 0;
+                        transition: 0.3s ease-in-out all;
+                        border-radius: 25px;
+                    }
+    
+                    &:hover {
+                        color: $primary-color;
+                    }
+                    &.active {
+                        color: $primary-color;
+                        font-weight: 800;
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            background-color: $third-color;
+                            width: 40px;
+                            height: 3px;
+                            top: 40px;
+                            right: 10px;
+                            opacity: 1;
+                            border-radius: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .auth__navbar{
+            gap: 50px;
+            background-color: $primary-color;
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 25px;
+            svg{
+                width: 25px;
+                height: 25px;
+                object-fit: contain;
+            }
+            span{
+                color: $white;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+    .navbar-toggler{
+        filter: invert(1);
+        border: 0;
+        &:active,&:focus{
+            outline: none;
+            border: 0;
+            box-shadow: none;
+        }
+    }
+    .offcanvas.offcanvas-start-lg{
+        padding-bottom: 10px !important;
+        background: $primary-color;
+        height: 100%;
+        width: 250px;
+        right: 0;
+        @media(max-width: 991px){
+            .offcanvas-body , .navbar__links{
+                justify-content: flex-start !important;
+                flex-direction: column !important;
+                align-items: flex-start  !important;
+                gap: 25px
+            }
+        }
+    }
+}

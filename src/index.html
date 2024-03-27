@@ -110,7 +110,7 @@
         <h1 class="text-third-color font-bold text-6xl"> مرحبا في <span class="text-primary-color"> مدرسة الفكر العلمي </span></h1>
         <span class="font-semibold text-third-color text-2xl">نلعب لنتعلَّم , نشارك لنفهم , نجرِّب لنبدع</span>
         <span class="text-fourth-color font-medium font-lg"> شارك معنا في رحلة مميزة من التعلم والتشويق </span>
-        <div class="video-icon relative pt-20 !pr-12 ">
+        <div class="video-icon relative pt-20 !pr-12 " data-bs-toggle="modal" data-bs-target="#videoModel">
           <a class="btn-icon" href="#">
             <svg width="35" height="35" viewBox="0 0 24 24" fill="nnoe" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 4.98963C5 4.01847 5 3.53289 5.20249 3.26522C5.37889 3.03203 5.64852 2.88773 5.9404 2.8703C6.27544 2.8503 6.67946 3.11965 7.48752 3.65835L18.0031 10.6687C18.6708 11.1139 19.0046 11.3364 19.1209 11.6169C19.2227 11.8622 19.2227 12.1378 19.1209 12.3831C19.0046 12.6636 18.6708 12.8862 18.0031 13.3313L7.48752 20.3417C6.67946 20.8804 6.27544 21.1497 5.9404 21.1297C5.64852 21.1123 5.37889 20.968 5.20249 20.7348C5 20.4671 5 19.9815 5 19.0104V4.98963Z" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -899,6 +899,16 @@
       <p> &copy جميع الحقوق محفوظة - لــ مؤسسة الفكر العلمي 2024</p>
     </div>
   </footer>
+
+  <div class="modal fade" id="videoModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <video controls>
+          <source src="../assets/images/video.mp4" type="video/mp4">
+      </video>
+      </div>
+    </div>
+  </div>
 
   <script src="../assets/js/jquery.js"></script>
   <script src="../assets/js/wow.js"></script>

@@ -535,8 +535,37 @@ input[type=checkbox]:checked {
 .falsfa__ .nav-link:nth-child(4).active:after {
   border-right: 14px solid #ff6666;
 }
+.falsfa__ .tab-pane {
+  padding: 0 70px;
+}
 .falsfa__ .tab-pane.fade.show.active {
   display: flex;
+}
+
+.what_we_provide .title {
+  width: 800px;
+}
+.what_we_provide .info__ {
+  width: 50%;
+}
+
+.offers__ .offer__item {
+  padding: 20px 45px;
+  border-radius: 8px;
+  width: 100%;
+  height: 140px;
+}
+.offers__ .offer__item:nth-child(1) {
+  background-color: #ffaf40;
+}
+.offers__ .offer__item:nth-child(2) {
+  background-color: #ff6666;
+}
+.offers__ .offer__item:nth-child(3) {
+  background-color: #95cc47;
+}
+.offers__ .offer__item img {
+  filter: brightness(0) invert(1) grayscale(1);
 }
 
 nav {

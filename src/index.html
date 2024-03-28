@@ -20,7 +20,7 @@
 </head>
 <body class=" bg-white">
 
-    <nav class="navbar navbar-expand-lg !px-10">
+    <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand d-lg-none" href="index.html">
             <img src="../assets/images/logo.png" alt="logo" loaing="lazy" width="100" height="100">
         </a>
@@ -31,7 +31,10 @@
           data-bs-target="#offcanvasExample"
           aria-controls="offcanvasExample"
         >
-          <img src="./assets/images/menu.svg" alt="menu" width="25" height="25" loading="lazy">
+        <!-- <svg width="24" height="24" stroke="black" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 12H21M3 6H21M3 18H15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg> -->
+          <img src="../assets/images/menu.svg" alt="" style="filter: invert(1);">
         </button>
         <div
           class="offcanvas offcanvas-start-lg"
@@ -46,7 +49,7 @@
               data-bs-dismiss="offcanvas"
               aria-label="close"
             >
-            <img src="./assets/images/close.svg" class="colse_" alt="close" width="25" height="25" loading="lazy">
+            <img src="../assets/images/close.svg" class="colse_" alt="close" width="25" height="25" loading="lazy">
           </a>
           </div>
           <div class="offcanvas-body p-lg-0 d-flex justify-content-between align-items-center flex-row">
@@ -106,7 +109,7 @@
     </nav>
 
   <header class="relative px-10" style="background-image: url('../assets/images/home-bg.jpg');">
-    <div class="flex justify-between items-center flex-row ">
+    <div class="flex justify-between items-center flex-row flex-wrap">
       <div class="hero__info flex justify-start items-start flex-col gap-4 mt-40">
         <h1 class="text-third-color font-bold text-6xl  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.5s"> مرحبا في <span class="text-primary-color"> مدرسة الفكر العلمي </span></h1>
         <span class="font-semibold text-third-color text-2xl  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.6s">نلعب لنتعلَّم , نشارك لنفهم , نجرِّب لنبدع</span>
@@ -140,7 +143,7 @@
     </div>
   </header>
 
-  <section class="flex justify-between items-center gap-7 flex-row px-10 relative -top-[60px] z-50">
+  <section class="section_below flex justify-between items-center gap-7 flex-row lg:px-10 relative -top-[60px] z-50">
     <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
       <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#ECEDFF] flex justify-center items-center">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -191,7 +194,7 @@
     </div>
   </section>
 
-  <section class="offers__ flex justify-center items-center flex-row gap-5 px-44 pt-10">
+  <section class="offers__ flex justify-center items-center flex-row gap-2 lg:gap-5 px-44 pt-10">
     <div class="offer__item flex justify-start items-start flex-row gap-3 !bg-[#ffaf40] rounded-md wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
       <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
       <div class="flex justify-start items-start flex-col gap-2">
@@ -218,7 +221,7 @@
   <section class="about__us px-10 pt-10">
     <div class="row">
       <div class="col-md-6">
-        <div class="about_us_info flex justify-start items-start flex-col gap-4 !pt-20">
+        <div class="about_us_info flex justify-start items-start flex-col gap-2 lg:gap-4 !pt-20">
           <h3 class="text-primary-color font-bold font-3xl wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">نحن نقدم لك التعليم عن بعد في جميع أنحاء الوطن العربي</h3>
           <p class="text-fourth-color font-medium font-md leading-[1.9] wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ </p>
           <ul class="flex justify-start items-start flex-col gap-3">
@@ -252,8 +255,7 @@
     </div>
   </section>
 
-
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="mt-10 position-relative top-12" style="top:62px;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="mt-10 position-relative top-12 svg__" style="top:62px;">
     <path fill="#F2E8D5" fill-opacity="1" d="M0,96L34.3,101.3C68.6,107,137,117,206,117.3C274.3,117,343,107,411,106.7C480,107,549,117,617,133.3C685.7,149,754,171,823,176C891.4,181,960,171,1029,160C1097.1,149,1166,139,1234,133.3C1302.9,128,1371,128,1406,128L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
   </svg>
   <section class="features__school pt-16 px-10 bg-second-color">
@@ -375,7 +377,7 @@
       </div>
     </div>
   </section>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg__" viewBox="0 0 1440 320">
     <path fill="#F2E8D5" fill-opacity="1" d="M0,96L34.3,101.3C68.6,107,137,117,206,117.3C274.3,117,343,107,411,106.7C480,107,549,117,617,133.3C685.7,149,754,171,823,176C891.4,181,960,171,1029,160C1097.1,149,1166,139,1234,133.3C1302.9,128,1371,128,1406,128L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path>
   </svg>
 
@@ -498,7 +500,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="flex justify-center items-center flex-row">
+        <div class="flex justify-center items-center flex-row infos__">
           <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%] mb-5 wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
             <div class="flex justify-start items-start flex-col gap-2">
               <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
@@ -514,7 +516,7 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-center items-center flex-row">
+        <div class="flex justify-center items-center flex-row infos__">
           <div class="info__ flex justify-start items-start flex-row flex-wrap w-[50%] wow fadeIn" data-wow-duration="0.9s" data-wow-delay="0.9s">
             <div class="flex justify-start items-start flex-col gap-2">
               <img src="../assets/images/h1-icon-1.png" alt="icon" loading="lazy">
@@ -639,7 +641,6 @@
       <li></li>
     </ul>
   </section>
-
 
   <section class="team__work pt-16">
     <div class="title flex justify-center items-center flex-row">

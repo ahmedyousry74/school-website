@@ -692,6 +692,25 @@ input[type=checkbox]:checked {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media (max-width: 991px) {
+  .contact_us_info {
+    padding: 20px !important;
+  }
+  .contact_us_info > div {
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    width: 100%;
+  }
+  .contact_us_info > div div {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    width: 100%;
+    padding: 20px;
+  }
+}
 
 .section_contact {
   padding: 0 80px 80px;
@@ -717,6 +736,28 @@ input[type=checkbox]:checked {
 }
 .section_contact form textarea {
   height: 150px;
+}
+.section_contact form button {
+  background-color: #400A0A;
+  color: #fff;
+  padding: 10px 25px;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .section_contact {
+    padding: 0 20px 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .section_contact iframe {
+    margin-top: 20px !important;
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 991px) {

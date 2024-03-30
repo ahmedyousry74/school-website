@@ -945,6 +945,7 @@ input[type="checkbox"]:checked {
     }
     @media(max-width: 991px){
         padding: 20px !important;
+        overflow: hidden;
         p {
             max-width: 100%;
         }

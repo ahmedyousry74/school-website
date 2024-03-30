@@ -425,15 +425,15 @@ input[type="checkbox"]:checked {
             left: 35%;
             width: 150px;
             height: 150px;
-            animation-delay: 5s;
+            animation-delay: 2s;
         }
 
         &:nth-child(8) {
             left: 50%;
             width: 25px;
             height: 25px;
-            animation-delay: 4s;
-            animation-duration: 45s;
+            animation-delay: 2s;
+            animation-duration: 15s;
         }
 
         &:nth-child(9) {
@@ -441,7 +441,7 @@ input[type="checkbox"]:checked {
             width: 15px;
             height: 15px;
             animation-delay: 2s;
-            animation-duration: 35s;
+            animation-duration: 15s;
         }
 
         &:nth-child(10) {
@@ -717,8 +717,24 @@ input[type="checkbox"]:checked {
         span{
             font-size: 18px !important;
         }
-        .shape-1,.shape-2,.shape-3,.shape-4{
-            display: none;
+        .shape-1,.shape-2,.shape-3,.shape-4,.shape-5{
+            // display: none;
+            img{
+                opacity: 0.5;
+            }
+        }
+        .shape-3{
+            top: 480px
+        }
+        .shape-1{
+            left: 10%;
+        }
+        .shape-4{
+            right: 20px;
+            left: auto;
+        }
+        .shape-5{
+            top: 100px;
         }
         .hero__img{
             margin-top: 70px !important;
@@ -727,6 +743,7 @@ input[type="checkbox"]:checked {
     .section_below{
         padding: 0 20px !important;
         flex-wrap: wrap;
+        gap: 10px !important;
         h6{
             font-size: 22px !important;
         }
@@ -829,10 +846,11 @@ input[type="checkbox"]:checked {
         }
     }
     .team__work .team__item .team_img .team__desc{
-        right: 31px !important;
+        right: -19px !important;
+        bottom: 15px !important;
     }
     .faq{
-        padding: 0 10px !important;
+        padding: 40px 20px 0 20px !important;
         .accordion-button{
             padding: 15px 8px !important;
             font-size: 14px;
@@ -842,11 +860,16 @@ input[type="checkbox"]:checked {
         }
     }
     .testimonials{
-        padding: 0 10px !important;
-        display: none;
+        padding: 40px 10px 0 10px !important;
+        .review__img{
+            img{
+                display: none !important;
+            }
+        }
+        // display: none;
     }
     .parteners__{
-        padding: 0 20px;
+        padding: 40px 20px !important;
         .owl-nav{
             display: none !important;
         }

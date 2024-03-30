@@ -790,10 +790,12 @@ input[type=checkbox]:checked {
 @media (max-width: 991px) {
   .blogs {
     padding: 20px !important;
+  }
+  .blogs .blog-item {
     overflow: hidden;
   }
   .blogs p {
-    max-width: 100%;
+    max-width: 250px !important;
   }
 }
 

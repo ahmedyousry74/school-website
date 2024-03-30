@@ -8,6 +8,10 @@ nav{
     right: 0;
     width: 100%;
     padding: 0 40px !important;
+    &.inside_pages{
+        position: relative !important;
+        background-color: $second-color;
+    }
     &.show{
         background-color: $second-color;
         position: fixed !important;
@@ -110,4 +114,5 @@ nav{
             }
         }
     }
+
 }

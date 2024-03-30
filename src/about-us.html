@@ -1,0 +1,904 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../assets/sass/main.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/animate.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/images/logo.png">
+  <title>WEBSITE SCHOOL</title>
+  <style>
+    .get__item::after{
+      background-image: url('../assets/images/arrow.svg') !important;
+    }
+  </style>
+</head>
+<body class=" bg-white">
+
+    <nav class="navbar navbar-expand-lg inside_pages" id="navbar">
+        <a class="navbar-brand d-lg-none" href="index.html">
+            <img src="../assets/images/logo.png" alt="logo" loaing="lazy" width="100" height="100">
+        </a>
+        <button
+          class="btn navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <img src="../assets/images/menu.svg" alt="" style="filter: invert(1);">
+        </button>
+        <div
+          class="offcanvas offcanvas-start-lg"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header d-flex d-lg-none">
+            <a
+              href="javascript:void(0)"
+              class="text-reset p-0"
+              data-bs-dismiss="offcanvas"
+              aria-label="close"
+            >
+            <img src="../assets/images/close.svg" class="colse_" alt="close" width="25" height="25" loading="lazy">
+          </a>
+          </div>
+          <div class="offcanvas-body p-lg-0 d-flex justify-content-between align-items-center flex-row">
+            <a class="navbar-brand" href="index.html">            
+              <img src="../assets/images/logo.png" alt="logo" loaing="lazy" height="100" width="100" class="object-fit-contain">
+            </a>
+                <ul class="navbar-nav navbar__links d-flex justify-content-between align-items-center flex-md-row">
+                    <li class="nav-item">
+                        <a class="nav-link active position-relative" aria-current="page" href="index.html"
+                        >الرئيسية</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./about-us.html"
+                        > من نحن </a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./contact-us.html"
+                        >تواصل معنا</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./knowledge"
+                        >الدليل و معايير القبول </a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./events.html"
+                        >الفعاليات</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./media.html"
+                        >ميديا</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./blogs.html"
+                        >المدونة</a
+                        >
+                    </li>
+                    </ul>
+                    <a href="#" class="auth__navbar flex justify-center align-center flex-row gap-2">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4" d="M18.6837 19.4384C18.0754 18.0052 16.6551 17 15 17H9C7.34493 17 5.92462 18.0052 5.3163 19.4384" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 13.5C14.2091 13.5 16 11.7091 16 9.5C16 7.29086 14.2091 5.5 12 5.5C9.79086 5.5 8 7.29086 8 9.5C8 11.7091 9.79086 13.5 12 13.5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg> 
+                        <span> تسجيل الدخول </span>
+                    </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <section class="page_header p-20 flex justify-start items-start flex-row relative" style="background-image: url('../assets/images/section-top.jpg');">
+        <div class="page_header_info flex justify-center items-center w-full flex-col gap-2">
+            <h1 class="text-primary-color font-bold text-4xl"> من نحن </h1>
+            <div aria-label="breadcrumb flex justify-center items-center flex-row">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item "><a href="index.html" class="text-third-color font-medium text-md">الرئيسية</a></li>
+                  <li class="breadcrumb-item active text-md font-medium text-fourth-color" aria-current="page">من نحن</li>
+                </ol>
+              </div>
+        </div>
+        <div class="shape-1 absolute top-[150px] left-[70%] rotate">
+            <img src="../assets/images/idea.svg" alt="" class="opacity-50">
+          </div>
+          <div class="shape-2 absolute top-[50px] right-9 moveHorizontal">
+            <img src="../assets/images/section-icon-1.svg" alt="" class="opacity-50">
+          </div>
+          <div class="shape-3 absolute top-[150px] left-[18%] bounce">
+            <img src="../assets/images/section-icon-2.svg" alt="" class="opacity-50">
+          </div>
+          <div class="shape-3 absolute top-[50px] left-[18%] moveHorizontal">
+            <img src="../assets/images/shape-2.svg" alt="" class="opacity-50">
+          </div>
+    </section>
+
+    <section class="about__us px-10 pt-10">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about_us_info flex justify-start items-start flex-col gap-2 lg:gap-4 !pt-20">
+              <h3 class="text-primary-color font-bold font-3xl wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">نحن نقدم لك التعليم عن بعد في جميع أنحاء الوطن العربي</h3>
+              <p class="text-fourth-color font-medium font-md leading-[1.9] wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ </p>
+              <ul class="flex justify-start items-start flex-col gap-3">
+                <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 6L9 17L4 12" stroke="#400A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  نقدم لك 1200+  محاضرات في جميع المراحل المختلفة 
+                  </li>
+                <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 6L9 17L4 12" stroke="#400A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  نقدم لك القارئ الذكي المتميز  
+                  </li>
+                <li class="flex justify-start items-center flex-row gap-2 text-fourth-color font-medium font-sm wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s"> 
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 6L9 17L4 12" stroke="#400A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  إمتحانات و إختبارات دورية 
+                  </li>
+              </ul>
+              <a href="" class="bg-primary-color text-white py-3 px-16 flex justify-center items-center font-medium font-md rounded-full hover:bg-second-color hover:!text-primary-color hover:font-bold wow fadeIn" data-wow-duration="0.9s" data-wow-delay="0.9s"> إقرأ المزيد </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about_us_img wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
+              <img src="../assets/images/review.png" alt="about us img" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="mt-10 position-relative top-12 svg__" style="top:62px;">
+        <path fill="#F2E8D5" fill-opacity="1" d="M0,96L34.3,101.3C68.6,107,137,117,206,117.3C274.3,117,343,107,411,106.7C480,107,549,117,617,133.3C685.7,149,754,171,823,176C891.4,181,960,171,1029,160C1097.1,149,1166,139,1234,133.3C1302.9,128,1371,128,1406,128L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+      </svg>
+      <section class="features__school pt-16 px-10 bg-second-color">
+        <div class="title flex justify-center items-center flex-col gap-1  m-auto ">
+          <h2 class="text-primary-color font-bold text-4xl  wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s"> مميزات مدرسة الفكر العلمي </h2>
+          <p class="text-fourth-color font-medium text-[15px] w-[350px] text-center leading-[1.8]  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+        </div>
+        <div class="feature__school mt-5">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h1-icon-1.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">تعليم مبكِّر </h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">
+                  طريقة جديدة في التعلم، ممنهجة حسب آلية عمل الدماغ، وبمدَّة درسٍ لا تتجاوز 40 دقيقة
+              </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h1-icon-2.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">التعلُّم السريع المتقَن</h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">
+                  من خلال دروس تفاعلية مباشرة بين المعلمة والطفل، وضمن مجموعات لا يزيد عدد الطلاب في المجموعة منها عن 6 أطفال ، وبمدة دوراتٍ قصيرة
+              </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h1-icon-3.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">
+                    معلمين متخصصين
+                </h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">
+                  جميع المعلمين تمَّ تدريبهم على أحدث أساليب التعليم الإلكتروني، وعلى أسلوب يبتعد عن تلقين المعرفة؛ وإنَّما يركِّز على إدارة الطالب للمعرفة
+              </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h1-icon-4.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">
+                    تعليم أونلاين
+                </h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">
+                  المناهج مصمَّمة على أيدي خبراء معنيين، بناءً على أحدث الأبحاث العلمية بما يخصُّ أنواعَ ذكاءات الطفل وأساليب تعلمه
+              </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h1-icon-5.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">
+                    بنك أسئلة
+                </h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">
+                  أسلوبٌ تعليمي لبناء شخصية الطالب الإبداعية، وتطوير مهاراتِه لتواكب متطلَّبات المستقبل السريع والمتغير باستمرار
+              </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h1-icon-6.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">
+                قارئ ذكي
+                </h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">
+                  أسلوبٌ تعليمي لتحفيز الطالب على التعلُّم الذاتي المستمر، والتعلُّم بالاكتشاف والتجرِبة
+              </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h2-icon-1.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">
+                    التعلُّم بشغف
+                </h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">
+                  أسلوبٌ تعليمي لتحفيز الطفل على التعلُّم الذاتي المستمر، والتعلُّم بالاكتشاف والتجرِبة
+              </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h2-icon-2.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">
+                    اختصار الوقت والجهد والمال
+                </h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">
+                  مدرستنا تُشرِف على تعليم الطفل من المنزل، وتوفِّر على الأهل الكثير من الوقت والتعب والمال
+              </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature__school__item flex justify-start items-start flex-col gap-3 mb-5  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                <div class="flex justify-start items-center flex-row gap-3 align-items-end">
+                  <img src="../assets/images/h2-icon-3.png" alt="feature" loading="lazy">
+                  <h3 class="text-primary-color font-semibold text-[17px]">القارئ الذكي</h3>
+                </div>
+                <span class="text-fourth-color font-medium text-[15px] laeding-[1.9]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" class="svg__" viewBox="0 0 1440 320">
+        <path fill="#F2E8D5" fill-opacity="1" d="M0,96L34.3,101.3C68.6,107,137,117,206,117.3C274.3,117,343,107,411,106.7C480,107,549,117,617,133.3C685.7,149,754,171,823,176C891.4,181,960,171,1029,160C1097.1,149,1166,139,1234,133.3C1302.9,128,1371,128,1406,128L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path>
+      </svg>
+
+      <section class="falsfa__ px-44">
+        <div class="title flex justify-center items-center flex-row">
+          <h2 class="text-primary-color font-bold text-4xl mb-5   wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s"> فلسفة مدرستنا </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active  wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s" id="v-pills-intellegance-tab" data-bs-toggle="pill" data-bs-target="#v-pills-intellegance" type="button" role="tab" aria-controls="v-pills-intellegance" aria-selected="true">
+                <h3 class="text-primary-color font-semibold text-lg">
+                  مراعاة الذكاءات المتعدِّدة
+                </h3>
+                <span class="text-fourth-color font-medium text-sm leading-[1.8]"> كلُّ طفلٍ يفكِّر ويتعلَّم بطريقة مختلفة عن الآخر، ولذلك صُمِّمت مناهِجُنا لتراعي نظريَّة الذكاءات المتعدِّدة لدى كلِّ طفل، وتنمِّيها من خلال فيديوهات مرئية وسمعيَّة وصورٍ وألعابٍ والعديدِ من الأنشطةِ المليئة بالَّلعب والمرح، حيث أنَّ أنواع الذكاءات لا تعمل بشكل منفرد؛ بل تعمل بشكلٍ مُتكامِل لإنجاز أيِّ أمرٍ بسيط. </span>
+            </button>
+              <button class="nav-link  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s" id="v-pills-creative-tab" data-bs-toggle="pill" data-bs-target="#v-pills-creative" type="button" role="tab" aria-controls="v-pills-creative" aria-selected="false"> 
+                <h3 class="text-primary-color font-semibold text-lg">  
+                  التعلَّم والتربية الإبداعيَّة 
+                </h3>
+                <span class="text-fourth-color font-medium text-sm leading-[1.8]">
+                  يعتمد أسلوب التعليم لدينا على التربية الإبداعيَّة التي تدعم تعبير الطفل المتعلِّم بحريَّة عن ذاته، وهو يتعلَّم من خلال تحفيزِ وتشجيعِ المعلمة للطلاب على المشاركة والتعبير عن أفكارهم وآرائهم عن طريق أنشطةٍ تساعد العقل على التجديد والابتكار.
+                </span>
+              </button>
+              <button class="nav-link  wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.7s" id="v-pills-skills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-skills" aria-selected="false"> 
+                <h3 class="text-primary-color font-semibold text-lg">
+                  اكتساب مهارات الحياة
+                </h3>
+                <span class="text-fourth-color font-medium text-sm leading-[1.8]">
+                  من خلال اكتساب مهاراتِ التفكير النقدي والمنطقي؛ ليكون الطفلُ ناجحاً فاعلاً في مدرسة الحياة، وذلك عن طريق التنويع في الأساليب والطرق المستخدمة في تقديم المعلومة (التعلم النشط)، والإكثار من الأسئلة المفتوحة
+                </span>
+             </button>
+              <button class="nav-link  wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s" id="v-pills-lang-tab" data-bs-toggle="pill" data-bs-target="#v-pills-lang" type="button" role="tab" aria-controls="v-pills-lang" aria-selected="false">
+                <h3 class="text-primary-color font-semibold text-lg">
+                  الانغماس اللغوي
+                </h3>
+                <span class="text-fourth-color font-medium text-sm leading-[1.8]">
+                  تمَّ تدريبُ معلِّماتنا بشكلٍ احترافيٍّ يتيح للطفل إدراك عالم اللغة بطريقة فريدة وبأسلوبٍ يبتعدُ عن التلقين، بحيث يتمكَّن الطفلُ من القراءة والكتابة والفهم عن طريق ممارسة اللغة من خلال القراءة اللعبيَّة والرقميِّة إضافة إلى الأناشيد والمشاريع والألعاب المُحفِّزة
+                </span>
+            </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="tab-content h-100 " id="v-pills-tabContent">
+              <div class="tab-pane fade show active flex justify-start items-center h-100" id="v-pills-intellegance" role="tabpanel" aria-labelledby="v-pills-intellegance-tab" tabindex="0">
+                <img src="../assets/images/falsfa1.svg" alt="falsfa" loading="lazy">
+              </div>
+              <div class="tab-pane fade flex justify-start items-center h-100" id="v-pills-creative" role="tabpanel" aria-labelledby="v-pills-creative-tab" tabindex="0">            
+                <img src="../assets/images/falsfa2.svg" alt="falsfa" loading="lazy">
+              </div>
+              <div class="tab-pane fade  flex justify-start items-center h-100" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab" tabindex="0">
+                <img src="../assets/images/falsfa3.svg" alt="falsfa" loading="lazy">
+              </div>
+              <div class="tab-pane fade flex justify-start items-center h-100" id="v-pills-lang" role="tabpanel" aria-labelledby="v-pills-lang-tab" tabindex="0">            
+                <img src="../assets/images/falsfa4.svg" alt="falsfa" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discover" style="background-image: url('../assets/images/home-bg.jpg');">
+        <div class="title flex justify-center items-center flex-col gap-1 m-auto mb-5">
+          <h2 class="text-primary-color font-bold text-4xl  wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s"> استكشف معنا أهم ما يميزنا </h2>
+          <p class="text-fourth-color font-medium text-[15px] w-[350px] text-center leading-[1.8]  wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+        </div>
+        <div class="dicover__items flex justify-center items-center flex-row flex-wrap gap-3">
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.7s">
+            <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
+            <img src="../assets/images/e2.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.7s">
+            <span class="text-primary-color font-medium font-lg"> تواصل مع المعلم  </span>
+            <img src="../assets/images/e3.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.7s">
+            <span class="text-primary-color font-medium font-lg"> ربط مع ولي الأمر </span>
+            <img src="../assets/images/e4.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.8s">
+            <span class="text-primary-color font-medium font-lg"> تعليم أونلاين</span>
+            <img src="../assets/images/e5.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.8s">
+            <span class="text-primary-color font-medium font-lg"> التعلم بـشغف</span>
+            <img src="../assets/images/e6.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.8s">
+            <span class="text-primary-color font-medium font-lg"> اختصار الوقت </span>
+            <img src="../assets/images/e7.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.9s">
+            <span class="text-primary-color font-medium font-lg">  معلمين متخصصين</span>
+            <img src="../assets/images/e8.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.9s">
+            <span class="text-primary-color font-medium font-lg"> مناهج  متخصِّصة </span>
+            <img src="../assets/images/e9.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.9s">
+            <span class="text-primary-color font-medium font-lg"> التعلُّم السريع </span>
+            <img src="../assets/images/e3.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+          <div class="discover__item bg-white border-4 border-solid border-[#ddd] rounded-full flex justify-between items-center  wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.9s">
+            <span class="text-primary-color font-medium font-lg"> القارئ الذكي </span>
+            <img src="../assets/images/e2.png" alt="icon" class="w-11 h-11 border-4 border-solid border-[#ECEDFF] rounded-full">
+          </div>
+        </div>
+      </section>
+
+      <section class="video__ py-5" style="background-image: url('../assets/images/illustration-background-character-design-person-vector-cartoon-icon-avatar-symbol-wallpaper-app-line_278914-36.jpg');">
+        <div class="video-icon relative pt-20 !pr-12 flex justify-center items-center flex-row" data-bs-toggle="modal" data-bs-target="#videoModel">
+            <a class="btn-icon" href="#">
+                <svg width="35" height="35" viewBox="0 0 24 24" fill="nnoe" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 4.98963C5 4.01847 5 3.53289 5.20249 3.26522C5.37889 3.03203 5.64852 2.88773 5.9404 2.8703C6.27544 2.8503 6.67946 3.11965 7.48752 3.65835L18.0031 10.6687C18.6708 11.1139 19.0046 11.3364 19.1209 11.6169C19.2227 11.8622 19.2227 12.1378 19.1209 12.3831C19.0046 12.6636 18.6708 12.8862 18.0031 13.3313L7.48752 20.3417C6.67946 20.8804 6.27544 21.1497 5.9404 21.1297C5.64852 21.1123 5.37889 20.968 5.20249 20.7348C5 20.4671 5 19.9815 5 19.0104V4.98963Z" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+      </section>
+
+      <section class="section_below flex justify-between items-center gap-5 flex-row lg:px-10 relative -top-[60px] z-50 px-10">
+        <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
+          <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#ECEDFF] flex justify-center items-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M6 18V10M10 18V10M14 18V10M18 18V10" stroke="#525fe1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 21H21M20 6.99998L12.424 2.26498C12.2702 2.16884 12.1933 2.12077 12.1108 2.10203C12.0379 2.08546 11.9621 2.08546 11.8892 2.10203C11.8067 2.12077 11.7298 2.16884 11.576 2.26498L4 6.99998H20Z" stroke="#525fe1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+                    </div>
+          <div class="feature__desc flex justify-start items-start flex-col">
+            <h6 class="m-0 text-primary-color font-semibold text-5xl num">30</h6>
+            <span class="text-fourth-color font-semibold text-md">بنك الأسئلة</span>
+          </div>
+        </div>
+        <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+          <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#FDF3FA] flex justify-center items-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M22 6.2C22 5.07989 22 4.51984 21.782 4.09202C21.5903 3.71569 21.2843 3.40973 20.908 3.21799C20.4802 3 19.9201 3 18.8 3H18.4C16.1598 3 15.0397 3 14.184 3.43597C13.4314 3.81947 12.8195 4.43139 12.436 5.18404C12 6.03968 12 7.15979 12 9.4V21L12.1001 20.8499C12.7947 19.808 13.142 19.287 13.6009 18.9098C14.0071 18.5759 14.4752 18.3254 14.9784 18.1726C15.5467 18 16.1729 18 17.4252 18H18.8C19.9201 18 20.4802 18 20.908 17.782C21.2843 17.5903 21.5903 17.2843 21.782 16.908C22 16.4802 22 15.9201 22 14.8V6.2Z" stroke="#57216C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 6.2C2 5.07989 2 4.51984 2.21799 4.09202C2.40973 3.71569 2.71569 3.40973 3.09202 3.21799C3.51984 3 4.07989 3 5.2 3H5.6C7.84021 3 8.96031 3 9.81596 3.43597C10.5686 3.81947 11.1805 4.43139 11.564 5.18404C12 6.03968 12 7.15979 12 9.4V21L11.8999 20.8499C11.2053 19.808 10.858 19.287 10.3991 18.9098C9.99286 18.5759 9.52476 18.3254 9.02161 18.1726C8.45325 18 7.82711 18 6.57482 18H5.2C4.07989 18 3.51984 18 3.09202 17.782C2.71569 17.5903 2.40973 17.2843 2.21799 16.908C2 16.4802 2 15.9201 2 14.8V6.2Z" stroke="#57216C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+                    </div>
+          <div class="feature__desc flex justify-start items-start flex-col">
+            <h6 class="m-0 text-primary-color font-semibold text-5xl num">110</h6>
+            <span class="text-fourth-color font-semibold text-md">محاضرة أونلاين</span>
+          </div>
+        </div>
+        <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0.7s">
+          <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#FFEFEE] flex justify-center items-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M16 6L18 8L22 4" stroke="#F26B65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16 21V19.8C16 18.1198 16 17.2798 15.673 16.638C15.3854 16.0735 14.9265 15.6146 14.362 15.327C13.7202 15 12.8802 15 11.2 15H6.8C5.11984 15 4.27976 15 3.63803 15.327C3.07354 15.6146 2.6146 16.0735 2.32698 16.638C2 17.2798 2 18.1198 2 19.8V21M12.5 7.5C12.5 9.433 10.933 11 9 11C7.067 11 5.5 9.433 5.5 7.5C5.5 5.567 7.067 4 9 4C10.933 4 12.5 5.567 12.5 7.5Z" stroke="#F26B65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </div>
+          <div class="feature__desc flex justify-start items-start flex-col">
+            <h6 class="m-0 text-primary-color font-semibold text-5xl num">110</h6>
+            <span class="text-fourth-color font-semibold text-md">أستاذ</span>
+          </div>
+        </div>
+        <div class="features__item border border-solid border-fifth-color bg-white p-4 flex justify-start flex-row items-center gap-3 rounded-xl w-full wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.8s">
+          <div class="feature__img h-[50px] w-[50px] rounded-full bg-[#EAFEFF] flex justify-center items-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M16 3.46777C17.4817 4.20412 18.5 5.73315 18.5 7.50001C18.5 9.26687 17.4817 10.7959 16 11.5323M18 16.7664C19.5115 17.4504 20.8725 18.565 22 20" stroke="#448BB7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 20C3.94649 17.5226 6.58918 16 9.5 16C12.4108 16 15.0535 17.5226 17 20M14 7.5C14 9.98528 11.9853 12 9.5 12C7.01472 12 5 9.98528 5 7.5C5 5.01472 7.01472 3 9.5 3C11.9853 3 14 5.01472 14 7.5Z" stroke="#448BB7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+                </div>
+          <div class="feature__desc flex justify-start items-start flex-col">
+            <h6 class="m-0 text-primary-color font-semibold text-5xl num">1500</h6>
+            <span class="text-fourth-color font-semibold text-md">طالب</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials bg-[#FDFDFD] px-10 py-16">
+        <div class="title flex justify-center items-center flex-row">
+          <h2 class="text-primary-color font-bold text-4xl mb-5"> اراّء العملاء </h2>
+        </div>
+        <div class="owl-carousel testimonials_carousal owl-theme">
+          <div class="reviews__item bg-white flex justify-start items-start flex-row">
+            <div class="review__info flex justify-start items-start flex-col gap-3 p-6">
+              <div class="flex justify-start items-start flex-col">
+                <h6 class="m-0 text-primary-color font-semibold text-[16px]">أحمد يسري</h6>
+                <span class="text-fourth-color font-medium text-[14px]">مدير</span>
+              </div>
+              <p class="text-fourth-color font-medium text-[14px]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+              <div class="flex justify-start items-center flex-row gap-1">
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-regular fa-star text-[#ffc662]"></i>
+              </div>
+            </div>
+            <div class="review__img">
+              <img src="../assets/images/review1.jpg" alt="review" class="object-cover">
+            </div>
+          </div>
+          <div class="reviews__item bg-white flex justify-start items-start flex-row">
+            <div class="review__info flex justify-start items-start flex-col gap-3 p-6">
+              <div class="flex justify-start items-start flex-col">
+                <h6 class="m-0 text-primary-color font-semibold text-[16px]">أحمد يسري</h6>
+                <span class="text-fourth-color font-medium text-[14px]">مدير</span>
+              </div>
+              <p class="text-fourth-color font-medium text-[14px]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+              <div class="flex justify-start items-center flex-row gap-1">
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-regular fa-star text-[#ffc662]"></i>
+              </div>
+            </div>
+            <div class="review__img">
+              <img src="../assets/images/review1.jpg" alt="review" class="object-cover">
+            </div>
+          </div>
+          <div class="reviews__item bg-white flex justify-start items-start flex-row">
+            <div class="review__info flex justify-start items-start flex-col gap-3 p-6">
+              <div class="flex justify-start items-start flex-col">
+                <h6 class="m-0 text-primary-color font-semibold text-[16px]">أحمد يسري</h6>
+                <span class="text-fourth-color font-medium text-[14px]">مدير</span>
+              </div>
+              <p class="text-fourth-color font-medium text-[14px]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+              <div class="flex justify-start items-center flex-row gap-1">
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-regular fa-star text-[#ffc662]"></i>
+              </div>
+            </div>
+            <div class="review__img">
+              <img src="../assets/images/review1.jpg" alt="review" class="object-cover">
+            </div>
+          </div>
+          <div class="reviews__item bg-white flex justify-start items-start flex-row">
+            <div class="review__info flex justify-start items-start flex-col gap-3 p-6">
+              <div class="flex justify-start items-start flex-col">
+                <h6 class="m-0 text-primary-color font-semibold text-[16px]">أحمد يسري</h6>
+                <span class="text-fourth-color font-medium text-[14px]">مدير</span>
+              </div>
+              <p class="text-fourth-color font-medium text-[14px]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+              <div class="flex justify-start items-center flex-row gap-1">
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-regular fa-star text-[#ffc662]"></i>
+              </div>
+            </div>
+            <div class="review__img">
+              <img src="../assets/images/review1.jpg" alt="review" class="object-cover">
+            </div>
+          </div>
+          <div class="reviews__item bg-white flex justify-start items-start flex-row">
+            <div class="review__info flex justify-start items-start flex-col gap-3 p-6">
+              <div class="flex justify-start items-start flex-col">
+                <h6 class="m-0 text-primary-color font-semibold text-[16px]">أحمد يسري</h6>
+                <span class="text-fourth-color font-medium text-[14px]">مدير</span>
+              </div>
+              <p class="text-fourth-color font-medium text-[14px]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ</p>
+              <div class="flex justify-start items-center flex-row gap-1">
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-solid fa-star text-[#ffc662]"></i>
+                <i class="fa-regular fa-star text-[#ffc662]"></i>
+              </div>
+            </div>
+            <div class="review__img">
+              <img src="../assets/images/review1.jpg" alt="review" class="object-cover">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team__work pt-16">
+        <div class="title flex justify-center items-center flex-row">
+          <h2 class="text-primary-color font-bold text-4xl mb-5"> فريق العمل </h2>
+        </div>
+        <div class="owl-carousel team_carousal owl-theme">
+          <div class="team__item">
+            <div class="team_img">
+              <img src="../assets/images/team4.jpg" alt="team" loading="lazy">
+              <div class="team__desc flex justify-center items-center flex-col">
+                <h3 class="text-primary-color font-semibold text-lg">أحمد يسري</h3>
+                <span class="text-primary-color font-semibold text-sm">مدرس لغة عربية</span>
+              </div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team_img">
+              <img src="../assets/images/team2.jpg" alt="team" loading="lazy">
+              <div class="team__desc flex justify-center items-center flex-col">
+                <h3 class="text-primary-color font-semibold text-lg">أحمد يسري</h3>
+                <span class="text-primary-color font-semibold text-sm">مدرس لغة عربية</span>
+              </div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team_img">
+              <img src="../assets/images/team3.jpg" alt="team" loading="lazy">
+              <div class="team__desc flex justify-center items-center flex-col">
+                <h3 class="text-primary-color font-semibold text-lg">أحمد يسري</h3>
+                <span class="text-primary-color font-semibold text-sm">مدرس لغة عربية</span>
+              </div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team_img">
+              <img src="../assets/images/team4.jpg" alt="team" loading="lazy">
+              <div class="team__desc flex justify-center items-center flex-col">
+                <h3 class="text-primary-color font-semibold text-lg">أحمد يسري</h3>
+                <span class="text-primary-color font-semibold text-sm">مدرس لغة عربية</span>
+              </div>
+            </div>
+          </div>
+          <div class="team__item">
+            <div class="team_img">
+              <img src="../assets/images/team6.jpg" alt="team" loading="lazy">
+              <div class="team__desc flex justify-center items-center flex-col">
+                <h3 class="text-primary-color font-semibold text-lg">أحمد يسري</h3>
+                <span class="text-primary-color font-semibold text-sm">مدرس لغة عربية</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="parteners__ px-40 py-16">
+          <div class="title flex justify-center items-center flex-row">
+          <h2 class="text-primary-color font-bold text-4xl mb-5"> شركائنا</h2>
+          </div>
+          <div class="owl-carousel partenres_carousal owl-theme">
+          <div class="img__partener flex justify-center items-center flex-row">
+              <img src="../assets/images/xc-logo-1.png.pagespeed.ic.xGdGUEH-1m.webp" alt="logo" width="50" height="50" class="w-[150px] h-[100px] object-contain">
+          </div>
+          <div class="img__partener flex justify-center items-center flex-row ">
+              <img src="../assets/images/xc-logo-2.png.pagespeed.ic.OMrLcfI1Hy.webp" alt="logo" width="50" height="50"  class="w-[150px] h-[100px] object-contain">
+          </div>
+          <div class="img__partener flex justify-center items-center flex-row">
+              <img src="../assets/images/xc-logo-3.png.pagespeed.ic.NQcNeNZ4a_.webp" alt="logo" width="50" height="50"  class="w-[150px] h-[100px] object-contain">
+          </div>
+          <div class="img__partener flex justify-center items-center flex-row">
+              <img src="../assets/images/xc-logo-4.png.pagespeed.ic.S5vWVkWjmD.webp" alt="logo" width="50" height="50"  class="w-[150px] h-[100px] object-contain">
+          </div>
+          <div class="img__partener flex justify-center items-center flex-row">
+              <img src="../assets/images/xc-logo-5.png.pagespeed.ic.-Y5kLux1yA.webp" alt="logo" width="50" height="50"  class="w-[150px] h-[100px] object-contain">
+          </div>
+          <div class="img__partener flex justify-center items-center flex-row">
+              <img src="../assets/images/xc-logo-1.png.pagespeed.ic.xGdGUEH-1m.webp" alt="logo" width="50" height="50"  class="w-[150px] h-[100px] object-contain">
+          </div>
+          </div>
+      </section>
+
+      <footer class="pt-20 px-10 pb-5 bg-second-color">
+        <div class="row pb-10">
+          <div class="col-md-3">
+            <div class="footer_main flex justify-start items-start flex-col gap-4">
+              <img src="../assets/images/logo.png" alt="logo" width="100" height="100">
+              <span class="text-primary-color font-medium font-xl leading-[1.9]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer__links">
+              <h2 class="text-primary-color font-medium text-2xl mb-4">صفحات مهمة</h2>
+              <ul class="flex justify-start items-start flex-col gap-3">
+                <li>
+                  <a href="" class="text-third-color font-medium text-lg"> الرئيسية </a>
+                </li>
+                <li>
+                  <a href="" class="text-third-color font-medium text-lg"> من نحن </a>
+                </li>
+                <li>
+                  <a href="" class="text-third-color font-medium text-lg"> ميديا </a>
+                </li>
+                <li>
+                  <a href="" class="text-third-color font-medium text-lg"> المدونة </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer__links">
+              <h2 class="text-primary-color font-medium text-2xl mb-4">صفحات مهمة</h2>
+              <ul  class="flex justify-start items-start flex-col gap-3">
+                <li>
+                  <a href="" class="text-third-color font-medium text-lg"> الدليل و معايير القبول </a>
+                </li>
+                <li>
+                  <a href="" class="text-third-color font-medium text-lg"> الفعاليات </a>
+                </li>
+                <li>
+                  <a href="" class="text-third-color font-medium text-lg"> تواصل معنا </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer__links">
+              <h2 class="text-primary-color font-medium text-2xl mb-4">تواصل معنا</h2>
+              <ul  class="flex justify-start items-start flex-col gap-3 mb-4">
+                <li>
+                  <a href="" class="flex justify-start items-center gap-2">  
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path opacity="0.4" d="M5 14.2864C3.14864 15.1031 2 16.2412 2 17.5C2 19.9853 6.47715 22 12 22C17.5228 22 22 19.9853 22 17.5C22 16.2412 20.8514 15.1031 19 14.2864" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M12 17C13.5 14 18 12.0637 18 8C18 4.68629 15.3137 2 12 2C8.68629 2 6 4.68629 6 8C6 12.0637 10.5 14 12 17Z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M12 9C12.5523 9 13 8.55228 13 8C13 7.44772 12.5523 7 12 7C11.4477 7 11 7.44772 11 8C11 8.55228 11.4477 9 12 9Z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="text-third-color font-medium text-lg">
+                      الرياض حي الملك فيصل، السعودية                  
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="flex justify-start items-center gap-2">  
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path opacity="0.4" d="M14.05 6C15.0268 6.19057 15.9244 6.66826 16.6281 7.37194C17.3318 8.07561 17.8095 8.97326 18 9.95M14.05 2C16.0793 2.22544 17.9716 3.13417 19.4163 4.57701C20.8609 6.01984 21.7721 7.91101 22 9.94" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M7.38064 9.85323C8.07664 11.3028 9.02543 12.6615 10.227 13.8631C11.4286 15.0646 12.7872 16.0134 14.2368 16.7094C14.3615 16.7693 14.4239 16.7992 14.5028 16.8222C14.7831 16.904 15.1274 16.8453 15.3648 16.6752C15.4316 16.6274 15.4888 16.5702 15.6031 16.4559C15.9527 16.1063 16.1275 15.9315 16.3033 15.8172C16.9662 15.3862 17.8208 15.3862 18.4836 15.8172C18.6594 15.9315 18.8342 16.1063 19.1838 16.4559L19.3787 16.6508C19.9101 17.1822 20.1759 17.448 20.3202 17.7333C20.6073 18.3009 20.6073 18.9712 20.3202 19.5387C20.1759 19.8241 19.9101 20.0898 19.3787 20.6213L19.2211 20.7789C18.6914 21.3085 18.4266 21.5733 18.0666 21.7756C17.6671 22 17.0466 22.1614 16.5884 22.16C16.1754 22.1588 15.8932 22.0787 15.3288 21.9185C12.2954 21.0575 9.43301 19.433 7.04503 17.045C4.65705 14.6571 3.03257 11.7947 2.1716 8.76131C2.01139 8.19687 1.93129 7.91464 1.93006 7.5017C1.9287 7.04347 2.09006 6.42298 2.31448 6.02348C2.51673 5.66345 2.78154 5.39863 3.31116 4.86901L3.4688 4.71138C4.00024 4.17993 4.26596 3.91421 4.55134 3.76987C5.1189 3.4828 5.78917 3.4828 6.35673 3.76987C6.64211 3.91421 6.90783 4.17993 7.43927 4.71138L7.63414 4.90625C7.98375 5.25585 8.15855 5.43065 8.27284 5.60643C8.70383 6.26932 8.70383 7.1239 8.27284 7.78679C8.15855 7.96257 7.98375 8.13738 7.63414 8.48698C7.51983 8.60129 7.46268 8.65845 7.41483 8.72526C7.24482 8.96269 7.18612 9.30695 7.26785 9.5873C7.29084 9.6662 7.32078 9.72854 7.38064 9.85323Z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      
+                      <span class="text-third-color font-medium text-lg">
+                        966570212216+                
+                      </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="flex justify-start items-center gap-2">  
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect opacity="0.4" x="2" y="4" width="20" height="16" rx="3" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M13.8351 12.7154C13.1739 13.1783 12.8433 13.4097 12.4837 13.4993C12.1661 13.5785 11.8339 13.5785 11.5163 13.4993C11.1567 13.4097 10.8261 13.1783 10.1649 12.7154L2 7C2 5.34315 3.34315 4 5 4H19C20.6569 4 22 5.34315 22 7L13.8351 12.7154Z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      
+                      <span class="text-third-color font-medium text-lg">
+                        Info@Scientific.Tech         
+                      </span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="flex justify-start items-start flex-row gap-3">
+                <li>
+                  <a href=""> <img src="../assets/images/facebook.svg" alt="facebook" height="25" width="25"> </a>
+                </li>
+                <li>
+                  <a href=""> <img src="../assets/images/twitter.svg" alt="facebook" height="25" width="25"> </a>
+                </li>
+                <li>
+                  <a href=""> <img src="../assets/images/youtube.svg" alt="facebook" height="25" width="25"> </a>
+                </li>
+                <li>
+                  <a href=""> <img src="../assets/images/instagram.png" alt="facebook" height="25" width="25"> </a>
+                </li>
+                <li>
+                  <a href=""> <img src="../assets/images/linkedin.svg" alt="facebook" height="25" width="25"> </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyRight__  pt-10 flex justify-center items-center flex-row">
+          <p> &copy جميع الحقوق محفوظة - لــ مؤسسة الفكر العلمي 2024</p>
+        </div>
+      </footer>
+    
+      <div class="modal fade" id="videoModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <video controls>
+              <source src="../assets/images/video.mp4" type="video/mp4">
+          </video>
+          </div>
+        </div>
+      </div>
+    
+      <script src="../assets/js/jquery.js"></script>
+      <script src="../assets/js/wow.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="../assets/js/all.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="../assets/js/main.js"></script>
+
+
+
+      
+  <script>
+    new WOW().init();
+  </script>
+ <script>
+    $('.owl-carousel.partenres_carousal').owlCarousel({
+    loop: true,
+    autoplay: true,
+    nav: false,
+    dots: false,
+    autoplayTimeout: 2000,
+    margin: 100,
+    responsiveClass: true,
+    ltr: true,
+    rtl: true,
+    responsive: {
+        0: {
+            items: 2,
+            nav: true
+        },
+        350: {
+            items: 2,
+            nav: true
+        },
+        600: {
+            items: 4,
+            nav: false
+        },
+        1000: {
+            items: 6,
+            nav: true,
+            loop: true
+        }
+    }
+})
+  </script>
+  <script>
+    $('.owl-carousel.testimonials_carousal').owlCarousel({
+    loop: true,
+    autoplay: true,
+    nav: false,
+    dots: false,
+    autoplayTimeout: 2000,
+    margin: 30,
+    responsiveClass: true,
+    ltr: true,
+    rtl: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        350: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 2,
+            nav: false
+        },
+        1000: {
+            items: 2,
+            nav: true,
+            loop: true
+        }
+    }
+})
+  </script>
+  <script>
+    $('.owl-carousel.team_carousal').owlCarousel({
+    loop: true,
+    autoplay: true,
+    nav: false,
+    dots: false,
+    center: true,
+    autoplayTimeout: 2000,
+    margin: 0,
+    responsiveClass: true,
+    rtl: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        350: {
+            items: 2,
+            nav: true
+        },
+        600: {
+            items: 3,
+            nav: false
+        },
+        1000: {
+            items: 4,
+            nav: true,
+            loop: true
+        }
+    }
+})
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.num').each(function() {
+      $(this).animate({
+        Counter: $(this).text()
+      }, {
+        duration: 7000,
+        easing: 'swing',
+        step: function(now) {
+          $(this).text(Math.ceil(now));
+        }
+      });
+    });
+  });
+</script>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.getElementById("navbar").classList.add("show");
+    } else {
+      document.getElementById("navbar").classList.remove("show");
+    }
+  }
+  </script>
+
+</body>
+</html>

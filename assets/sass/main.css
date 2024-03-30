@@ -808,6 +808,11 @@ input[type=checkbox]:checked {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-width: 991px) {
+  .blog_details {
+    padding: 20px !important;
+  }
+}
 
 @media (max-width: 991px) {
   .navbar {

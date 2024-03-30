@@ -688,6 +688,37 @@ input[type=checkbox]:checked {
   transition: all ease 0.3s;
 }
 
+.contact_us_info {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section_contact {
+  padding: 0 80px 80px;
+}
+.section_contact form {
+  margin-top: 40px;
+}
+.section_contact form input, .section_contact form textarea {
+  box-shadow: none;
+  letter-spacing: 0;
+  outline: none;
+  line-height: 50px;
+  height: 50px;
+  padding: 0 20px;
+  text-align: start;
+  font-family: inherit;
+  border-radius: 4px;
+  font-weight: 400;
+  border: 1px solid #e5e7f2;
+  background: #f7f9fb;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.section_contact form textarea {
+  height: 150px;
+}
+
 @media (max-width: 991px) {
   .navbar {
     padding: 0 20px !important;

@@ -8,6 +8,12 @@ nav{
     right: 0;
     width: 100%;
     padding: 0 40px !important;
+    &.show{
+        background-color: $second-color;
+        position: fixed !important;
+        transition: top 0.3s;
+        z-index: 1000;
+    }
     .colse_{
         filter: invert(1);
     }

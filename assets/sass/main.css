@@ -814,6 +814,20 @@ input[type=checkbox]:checked {
   }
 }
 
+.whatsapp__icon {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 999;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25D366;
+}
+
 @media (max-width: 991px) {
   .navbar {
     padding: 0 20px !important;

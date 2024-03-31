@@ -769,32 +769,32 @@ input[type=checkbox]:checked {
   }
 }
 
-.blogs {
+.blogs, .events {
   padding: 40px;
 }
-.blogs .blog-item {
+.blogs .blog-item, .blogs .event-item, .events .blog-item, .events .event-item {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-bottom: 50px;
 }
-.blogs .blog-item img {
+.blogs .blog-item img, .blogs .event-item img, .events .blog-item img, .events .event-item img {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.blogs .blog-item p {
+.blogs .blog-item p, .blogs .event-item p, .events .blog-item p, .events .event-item p {
   max-width: 350px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 @media (max-width: 991px) {
-  .blogs {
+  .blogs, .events {
     padding: 20px !important;
   }
-  .blogs .blog-item {
+  .blogs .blog-item, .blogs .event-item, .events .blog-item, .events .event-item {
     overflow: hidden;
   }
-  .blogs p {
+  .blogs p, .events p {
     max-width: 250px !important;
   }
 }
@@ -830,7 +830,7 @@ input[type=checkbox]:checked {
   background-color: #F2E8D5;
   color: #400A0A;
   border: 1px solid #F2E8D5;
-  border-top: 5px solid #F2E8D5;
+  height: 45px;
 }
 .media_section .media_tabs ul .nav-link.active {
   background-color: #400A0A;

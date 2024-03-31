@@ -814,6 +814,52 @@ input[type=checkbox]:checked {
   }
 }
 
+.media_section {
+  padding: 40px;
+}
+.media_section .media_tabs ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+.media_section .media_tabs ul .nav-link {
+  color: #fff;
+  border-radius: 8px;
+  background-color: #F2E8D5;
+  color: #400A0A;
+  border: 1px solid #F2E8D5;
+  border-top: 5px solid #F2E8D5;
+}
+.media_section .media_tabs ul .nav-link.active {
+  background-color: #400A0A;
+  border: 0;
+  border-top: 5px solid #F2E8D5;
+  color: #fff;
+}
+.media_section .media_content {
+  margin-top: 100px;
+}
+.media_section .media_content .media-item {
+  cursor: pointer;
+  margin-bottom: 45px;
+}
+.media_section .media_content .media-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+}
+@media (max-width: 991px) {
+  .media_section {
+    padding: 20px;
+  }
+  .media_section .media_content {
+    margin-top: 50px;
+  }
+}
+
 .whatsapp__icon {
   position: fixed;
   bottom: 40px;

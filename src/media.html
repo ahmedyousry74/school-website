@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../assets/sass/main.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/animate.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/images/logo.png">
+  <title>WEBSITE SCHOOL</title>
+</head>
+<body class=" bg-white">
+
+    <nav class="navbar navbar-expand-lg inside_pages" id="navbar">
+        <a class="navbar-brand d-lg-none" href="index.html">
+            <img src="../assets/images/logo.png" alt="logo" loaing="lazy" width="100" height="100">
+        </a>
+        <button
+          class="btn navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <img src="../assets/images/menu.svg" alt="" style="filter: invert(1);">
+        </button>
+        <div
+          class="offcanvas offcanvas-start-lg"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header d-flex d-lg-none">
+            <a
+              href="javascript:void(0)"
+              class="text-reset p-0"
+              data-bs-dismiss="offcanvas"
+              aria-label="close"
+            >
+            <img src="../assets/images/close.svg" class="colse_" alt="close" width="25" height="25" loading="lazy">
+          </a>
+          </div>
+          <div class="offcanvas-body p-lg-0 d-flex justify-content-between align-items-center flex-row">
+            <a class="navbar-brand" href="index.html">            
+              <img src="../assets/images/logo.png" alt="logo" loaing="lazy" height="100" width="100" class="object-fit-contain">
+            </a>
+                <ul class="navbar-nav navbar__links d-flex justify-content-between align-items-center flex-md-row">
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="index.html"
+                        >الرئيسية</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./about-us.html"
+                        > من نحن </a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./contact-us.html"
+                        >تواصل معنا</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./knowledge"
+                        >الدليل و معايير القبول </a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./events.html"
+                        >الفعاليات</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active position-relative" aria-current="page" href="./media.html"
+                        >ميديا</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" aria-current="page" href="./blogs.html"
+                        >المدونة</a
+                        >
+                    </li>
+                    </ul>
+                    <a href="#" class="auth__navbar flex justify-center align-center flex-row gap-2">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4" d="M18.6837 19.4384C18.0754 18.0052 16.6551 17 15 17H9C7.34493 17 5.92462 18.0052 5.3163 19.4384" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 13.5C14.2091 13.5 16 11.7091 16 9.5C16 7.29086 14.2091 5.5 12 5.5C9.79086 5.5 8 7.29086 8 9.5C8 11.7091 9.79086 13.5 12 13.5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg> 
+                        <span> تسجيل الدخول </span>
+                    </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <section class="page_header p-20 flex justify-start items-start flex-row relative" style="background-image: url('../assets/images/section-top.jpg');">
+        <div class="page_header_info flex justify-center items-center w-full flex-col gap-2">
+            <h1 class="text-primary-color font-bold text-4xl"> ميديا </h1>
+            <div aria-label="breadcrumb flex justify-center items-center flex-row">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item "><a href="index.html" class="text-third-color font-medium text-md">الرئيسية</a></li>
+                  <li class="breadcrumb-item active text-md font-medium text-fourth-color" aria-current="page">ميديا </li>
+                </ol>
+              </div>
+        </div>
+        <div class="shape-1 absolute top-[150px] left-[70%] rotate">
+            <img src="../assets/images/idea.svg" alt="" class="opacity-50">
+          </div>
+          <div class="shape-2 absolute top-[50px] right-9 moveHorizontal">
+            <img src="../assets/images/section-icon-1.svg" alt="" class="opacity-50">
+          </div>
+          <div class="shape-3 absolute top-[150px] left-[18%] bounce">
+            <img src="../assets/images/section-icon-2.svg" alt="" class="opacity-50">
+          </div>
+          <div class="shape-3 absolute top-[50px] left-[18%] moveHorizontal">
+            <img src="../assets/images/shape-2.svg" alt="" class="opacity-50">
+          </div>
+    </section>
+
+    <section class="media_section">
+        <div class="media_tabs">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">الكل</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-video-tab" data-bs-toggle="pill" data-bs-target="#pills-video" type="button" role="tab" aria-controls="pills-video" aria-selected="false">الفيديوهات</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-photos-tab" data-bs-toggle="pill" data-bs-target="#pills-photos" type="button" role="tab" aria-controls="pills-photos" aria-selected="false">الصور</button>
+                </li>
+              </ul>
+        </div>
+        <div class="media_content">
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+                  <div class="media__list">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3"  data-bs-toggle="modal" data-bs-target="#videoMediaModel">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy"  data-bs-toggle="modal" data-bs-target="#photoMediaModel">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy" data-bs-toggle="modal" data-bs-target="#videoMediaModel">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoMediaModel">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">
+                  <div class="media__list">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy"  data-bs-toggle="modal" data-bs-target="#videoMediaModel">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy"  data-bs-toggle="modal" data-bs-target="#videoMediaModel">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy"  data-bs-toggle="modal" data-bs-target="#videoMediaModel">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy"  data-bs-toggle="modal" data-bs-target="#videoMediaModel">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-photos" role="tabpanel" aria-labelledby="pills-photos-tab" tabindex="0">
+                  <div class="media__list">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3"   data-bs-toggle="modal" data-bs-target="#photoMediaModel">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3" data-bs-toggle="modal" data-bs-target="#photoMediaModel">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3" data-bs-toggle="modal" data-bs-target="#photoMediaModel">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="media-item flex justify-center items-center flex-col gap-3" data-bs-toggle="modal" data-bs-target="#photoMediaModel">
+                          <img src="../assets/images/coverlettergraphic.jpg" alt="media" loading="lazy">
+                          <h3 class="text-primary-color font-semibold text-lg"> كيفية التعامل مع منصة الفكر التعليمي </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pt-20 px-10 pb-5 bg-second-color">
+    <div class="row pb-10">
+      <div class="col-md-3">
+        <div class="footer_main flex justify-start items-start flex-col gap-4">
+          <img src="../assets/images/logo.png" alt="logo" width="100" height="100">
+          <span class="text-primary-color font-medium font-xl leading-[1.9]">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__links">
+          <h2 class="text-primary-color font-medium text-2xl mb-4">صفحات مهمة</h2>
+          <ul class="flex justify-start items-start flex-col gap-3">
+            <li>
+              <a href="" class="text-third-color font-medium text-lg"> الرئيسية </a>
+            </li>
+            <li>
+              <a href="" class="text-third-color font-medium text-lg"> من نحن </a>
+            </li>
+            <li>
+              <a href="" class="text-third-color font-medium text-lg"> ميديا </a>
+            </li>
+            <li>
+              <a href="" class="text-third-color font-medium text-lg"> المدونة </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__links">
+          <h2 class="text-primary-color font-medium text-2xl mb-4">صفحات مهمة</h2>
+          <ul  class="flex justify-start items-start flex-col gap-3">
+            <li>
+              <a href="" class="text-third-color font-medium text-lg"> الدليل و معايير القبول </a>
+            </li>
+            <li>
+              <a href="" class="text-third-color font-medium text-lg"> الفعاليات </a>
+            </li>
+            <li>
+              <a href="" class="text-third-color font-medium text-lg"> تواصل معنا </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__links">
+          <h2 class="text-primary-color font-medium text-2xl mb-4">تواصل معنا</h2>
+          <ul  class="flex justify-start items-start flex-col gap-3 mb-4">
+            <li>
+              <a href="" class="flex justify-start items-center gap-2">  
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.4" d="M5 14.2864C3.14864 15.1031 2 16.2412 2 17.5C2 19.9853 6.47715 22 12 22C17.5228 22 22 19.9853 22 17.5C22 16.2412 20.8514 15.1031 19 14.2864" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 17C13.5 14 18 12.0637 18 8C18 4.68629 15.3137 2 12 2C8.68629 2 6 4.68629 6 8C6 12.0637 10.5 14 12 17Z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 9C12.5523 9 13 8.55228 13 8C13 7.44772 12.5523 7 12 7C11.4477 7 11 7.44772 11 8C11 8.55228 11.4477 9 12 9Z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-third-color font-medium text-lg">
+                  الرياض حي الملك فيصل، السعودية                  
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="flex justify-start items-center gap-2">  
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.4" d="M14.05 6C15.0268 6.19057 15.9244 6.66826 16.6281 7.37194C17.3318 8.07561 17.8095 8.97326 18 9.95M14.05 2C16.0793 2.22544 17.9716 3.13417 19.4163 4.57701C20.8609 6.01984 21.7721 7.91101 22 9.94" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.38064 9.85323C8.07664 11.3028 9.02543 12.6615 10.227 13.8631C11.4286 15.0646 12.7872 16.0134 14.2368 16.7094C14.3615 16.7693 14.4239 16.7992 14.5028 16.8222C14.7831 16.904 15.1274 16.8453 15.3648 16.6752C15.4316 16.6274 15.4888 16.5702 15.6031 16.4559C15.9527 16.1063 16.1275 15.9315 16.3033 15.8172C16.9662 15.3862 17.8208 15.3862 18.4836 15.8172C18.6594 15.9315 18.8342 16.1063 19.1838 16.4559L19.3787 16.6508C19.9101 17.1822 20.1759 17.448 20.3202 17.7333C20.6073 18.3009 20.6073 18.9712 20.3202 19.5387C20.1759 19.8241 19.9101 20.0898 19.3787 20.6213L19.2211 20.7789C18.6914 21.3085 18.4266 21.5733 18.0666 21.7756C17.6671 22 17.0466 22.1614 16.5884 22.16C16.1754 22.1588 15.8932 22.0787 15.3288 21.9185C12.2954 21.0575 9.43301 19.433 7.04503 17.045C4.65705 14.6571 3.03257 11.7947 2.1716 8.76131C2.01139 8.19687 1.93129 7.91464 1.93006 7.5017C1.9287 7.04347 2.09006 6.42298 2.31448 6.02348C2.51673 5.66345 2.78154 5.39863 3.31116 4.86901L3.4688 4.71138C4.00024 4.17993 4.26596 3.91421 4.55134 3.76987C5.1189 3.4828 5.78917 3.4828 6.35673 3.76987C6.64211 3.91421 6.90783 4.17993 7.43927 4.71138L7.63414 4.90625C7.98375 5.25585 8.15855 5.43065 8.27284 5.60643C8.70383 6.26932 8.70383 7.1239 8.27284 7.78679C8.15855 7.96257 7.98375 8.13738 7.63414 8.48698C7.51983 8.60129 7.46268 8.65845 7.41483 8.72526C7.24482 8.96269 7.18612 9.30695 7.26785 9.5873C7.29084 9.6662 7.32078 9.72854 7.38064 9.85323Z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+                  <span class="text-third-color font-medium text-lg">
+                    966570212216+                
+                  </span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="flex justify-start items-center gap-2">  
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect opacity="0.4" x="2" y="4" width="20" height="16" rx="3" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.8351 12.7154C13.1739 13.1783 12.8433 13.4097 12.4837 13.4993C12.1661 13.5785 11.8339 13.5785 11.5163 13.4993C11.1567 13.4097 10.8261 13.1783 10.1649 12.7154L2 7C2 5.34315 3.34315 4 5 4H19C20.6569 4 22 5.34315 22 7L13.8351 12.7154Z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+                  <span class="text-third-color font-medium text-lg">
+                    Info@Scientific.Tech         
+                  </span>
+              </a>
+            </li>
+          </ul>
+          <ul class="flex justify-start items-start flex-row gap-3">
+            <li>
+              <a href=""> <img src="../assets/images/facebook.svg" alt="facebook" height="25" width="25"> </a>
+            </li>
+            <li>
+              <a href=""> <img src="../assets/images/twitter.svg" alt="facebook" height="25" width="25"> </a>
+            </li>
+            <li>
+              <a href=""> <img src="../assets/images/youtube.svg" alt="facebook" height="25" width="25"> </a>
+            </li>
+            <li>
+              <a href=""> <img src="../assets/images/instagram.png" alt="facebook" height="25" width="25"> </a>
+            </li>
+            <li>
+              <a href=""> <img src="../assets/images/linkedin.svg" alt="facebook" height="25" width="25"> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyRight__  pt-10 flex justify-center items-center flex-row">
+      <p> &copy جميع الحقوق محفوظة - لــ مؤسسة الفكر العلمي 2024</p>
+    </div>
+    </footer>
+
+    <div class="whatsapp__icon fixed bottom-5 left-5">
+        <a href="https://wa.me/+201070113399?text=">
+        <svg fill="#fff" viewBox="0 0 90 90" width="32" height="32"><path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522   c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982   c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537   c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938   c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537   c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333   c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882   c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977   c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344   c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223   C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"></path></svg>
+        </a>
+    </div>
+
+    <div class="modal fade" id="videoMediaModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <video controls>
+            <source src="../assets/images/video.mp4" type="video/mp4">
+        </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="photoMediaModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <img src="../assets/images/coverlettergraphic.jpg" alt="cover letter" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+  <script src="../assets/js/jquery.js"></script>
+  <script src="../assets/js/wow.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="../assets/js/all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../assets/js/main.js"></script>
+
+  <script>
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("navbar").classList.add("show");
+      } else {
+        document.getElementById("navbar").classList.remove("show");
+      }
+    }
+    </script>
+  </body>
+  </html>

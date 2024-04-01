@@ -874,6 +874,68 @@ input[type=checkbox]:checked {
   background-color: #25D366;
 }
 
+.guide__section {
+  padding: 60px;
+}
+.guide__section .guide__item__info {
+  margin-top: 100px;
+}
+.guide__section .guide__item__info a {
+  color: #F2E8D5;
+}
+.guide__section img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.guide__section .guide_tabs ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 50px !important;
+}
+.guide__section .guide_tabs ul .nav-link {
+  color: #fff;
+  border-radius: 8px;
+  background-color: #F2E8D5;
+  color: #400A0A;
+  border: 1px solid #F2E8D5;
+  height: 45px;
+}
+.guide__section .guide_tabs ul .nav-link.active {
+  background-color: #400A0A;
+  border: 0;
+  border-top: 5px solid #F2E8D5;
+  color: #fff;
+}
+.guide__section .guide_content a {
+  color: #F2E8D5;
+}
+.guide__section .guide_content .tab-pane.active {
+  gap: 25px !important;
+  display: flex;
+}
+.guide__section .guide_content img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 600px;
+}
+.guide__section .guide__list img {
+  height: 300px;
+  width: 100% !important;
+}
+@media (max-width: 991px) {
+  .guide__section {
+    padding: 20px;
+  }
+  .guide__section .guide__item__info {
+    margin-top: 0px;
+  }
+}
+
 @media (max-width: 991px) {
   .navbar {
     padding: 0 20px !important;

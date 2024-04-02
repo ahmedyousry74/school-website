@@ -1141,20 +1141,26 @@ input[type=checkbox]:checked {
     top: 100px;
   }
 }
-.register__data {
+.register__ .register__img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1100px;
+}
+.register__ .register__img img {
+  height: 100vh;
+}
+.register__ .register__data {
   padding: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.register__data .register__img img {
-  height: 100vh;
-}
-.register__data form {
+.register__ .register__data form {
   width: 100%;
 }
-.register__data form input, .register__data form select, .register__data form textarea {
+.register__ .register__data form input, .register__ .register__data form select, .register__ .register__data form textarea {
   border: 1px solid #e5e7f2 !important;
   background: #f7f9fb !important;
   transition: all 250ms ease-in-out;
@@ -1174,10 +1180,10 @@ input[type=checkbox]:checked {
   border-radius: 4px;
   font-weight: 400;
 }
-.register__data form textarea {
+.register__ .register__data form textarea {
   height: 120px;
 }
-.register__data form .file__zone {
+.register__ .register__data form .file__zone {
   gap: 5px;
   position: relative;
   border: 1px solid #d0d5dd !important;
@@ -1185,7 +1191,7 @@ input[type=checkbox]:checked {
   padding: 16px;
   background-color: #f7f9fb;
 }
-.register__data form .file__zone input {
+.register__ .register__data form .file__zone input {
   width: 100%;
   height: 100% !important;
   position: absolute;
@@ -1193,23 +1199,36 @@ input[type=checkbox]:checked {
   right: 0;
   opacity: 0;
 }
-.register__data form .file__zone span {
+.register__ .register__data form .file__zone span {
   color: #475467;
   font-size: 14px;
   font-weight: 400;
 }
-.register__data form .file__zone span span {
+.register__ .register__data form .file__zone span span {
   color: #52911b;
   font-weight: 700;
 }
-.register__data form .file__zone p {
+.register__ .register__data form .file__zone p {
   color: #475467;
   font-size: 12px;
   font-weight: 400;
 }
-.register__data .btn_ button {
+.register__ .register__data .btn_ button {
   color: #F2E8D5;
   padding: 12px 55px;
+}
+@media (max-width: 991px) {
+  .register__ {
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+  }
+  .register__ .register__img {
+    display: none;
+  }
+  .register__ .register__data {
+    width: 100% !important;
+    padding: 20px;
+  }
 }
 
 nav {

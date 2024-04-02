@@ -359,6 +359,15 @@
     }
   });
 </script>
-
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const button2 = document.getElementById('signType');
+    const loginOptions2 = document.getElementById('loginOptions2');
+  
+    button2.addEventListener('click', function() {
+      loginOptions2.classList.toggle('hidden');
+    });
+  });
+  </script>
 </body>
 </html>

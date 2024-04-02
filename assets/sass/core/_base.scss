@@ -926,16 +926,20 @@ input[type="checkbox"]:checked {
     }
 }
 
-.blogs , .events {
+.blogs,
+.events {
     padding: 40px;
 
-    .blog-item,.event-item {
+    .blog-item,
+    .event-item {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         margin-bottom: 50px;
-        img{
+
+        img {
             height: 250px;
             object-fit: cover;
         }
+
         p {
             max-width: 350px;
             white-space: nowrap;
@@ -943,46 +947,56 @@ input[type="checkbox"]:checked {
             text-overflow: ellipsis;
         }
     }
-    @media(max-width: 991px){
+
+    @media(max-width: 991px) {
         padding: 20px !important;
-        .blog-item,.event-item {
+
+        .blog-item,
+        .event-item {
             overflow: hidden;
         }
+
         p {
             max-width: 250px !important;
         }
     }
 }
-.blog_details{
+
+.blog_details {
     padding: 40px;
-    img{
+
+    img {
         width: 100%;
         height: 400px;
         object-fit: cover;
     }
-    @media(max-width: 991px){
+
+    @media(max-width: 991px) {
         padding: 20px !important;
 
     }
 }
 
-.media_section{
+.media_section {
     padding: 40px;
-    .media_tabs{
-        ul{
+
+    .media_tabs {
+        ul {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: row;
             gap: 15px;
-            .nav-link{
+
+            .nav-link {
                 color: $white;
                 border-radius: 8px;
                 background-color: $second-color;
                 color: $primary-color;
                 border: 1px solid $second-color;
                 height: 45px;
-                &.active{
+
+                &.active {
                     background-color: $primary-color;
                     border: 0;
                     border-top: 5px solid $second-color;
@@ -991,26 +1005,32 @@ input[type="checkbox"]:checked {
             }
         }
     }
-    .media_content{
+
+    .media_content {
         margin-top: 100px;
-        .media-item{
+
+        .media-item {
             cursor: pointer;
             margin-bottom: 45px;
-            img{
+
+            img {
                 width: 100%;
                 object-fit: cover;
                 height: 300px;
             }
         }
     }
-    @media(max-width: 991px){
+
+    @media(max-width: 991px) {
         padding: 20px;
-        .media_content{
+
+        .media_content {
             margin-top: 50px;
         }
     }
 }
-.whatsapp__icon{
+
+.whatsapp__icon {
     position: fixed;
     bottom: 40px;
     left: 40px;
@@ -1023,34 +1043,41 @@ input[type="checkbox"]:checked {
     align-items: center;
     background-color: #25D366;
 }
-.guide__section{
+
+.guide__section {
     padding: 60px;
-    .guide__item__info{
+
+    .guide__item__info {
         margin-top: 100px;
-        a{
+
+        a {
             color: $second-color;
         }
     }
-    img{
+
+    img {
         width: 100%;
         object-fit: contain;
     }
-    .guide_tabs{
-        ul{
+
+    .guide_tabs {
+        ul {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: row;
             gap: 15px;
             margin-bottom: 50px !important;
-            .nav-link{
+
+            .nav-link {
                 color: $white;
                 border-radius: 8px;
                 background-color: $second-color;
                 color: $primary-color;
                 border: 1px solid $second-color;
                 height: 45px;
-                &.active{
+
+                &.active {
                     background-color: $primary-color;
                     border: 0;
                     border-top: 5px solid $second-color;
@@ -1059,33 +1086,40 @@ input[type="checkbox"]:checked {
             }
         }
     }
-    .guide_content{
-        a{
+
+    .guide_content {
+        a {
             color: $second-color;
         }
-        .tab-pane.active{
+
+        .tab-pane.active {
             gap: 25px !important;
             display: flex;
         }
-        img{
+
+        img {
             height: 400px;
             object-fit: cover;
             max-width: 600px;
         }
     }
-    .guide__list{
-        img{
+
+    .guide__list {
+        img {
             height: 300px;
             width: 100% !important;
         }
     }
-    @media(max-width:991px){
+
+    @media(max-width:991px) {
         padding: 20px;
-        .guide__item__info{
+
+        .guide__item__info {
             margin-top: 0px;
         }
     }
 }
+
 @media(max-width: 991px) {
     .navbar {
         padding: 0 20px !important;
@@ -1336,5 +1370,83 @@ input[type="checkbox"]:checked {
 
     .shape-5 {
         top: 100px;
+    }
+}
+
+.register__data {
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .register__img{
+        img{
+            height: 100vh;
+        }
+    }
+    form {
+        width: 100%;
+        input,select,textarea{
+            border: 1px solid #e5e7f2 !important;
+            background: #f7f9fb !important;
+            transition: all 250ms ease-in-out;
+            width: 100%;
+            box-sizing: border-box;
+            min-width: 100%;
+            border: none;
+            background: #fff;
+            box-shadow: none;
+            letter-spacing: 0;
+            outline: none;
+            line-height: 50px;
+            height: 50px;
+            padding: 0 20px;
+            text-align: start;
+            font-family: inherit;
+            border-radius: 4px;
+            font-weight: 400;
+        }
+        textarea{
+            height: 120px;
+        }
+        .file__zone {
+            gap: 5px;
+            position: relative;
+            border: 1px solid #d0d5dd !important;
+            border-radius: 8px !important;
+            padding: 16px;
+            background-color: #f7f9fb;
+            input {
+                width: 100%;
+                height: 100% !important;
+                position: absolute;
+                top: 0;
+                right: 0;
+                opacity: 0;
+            }
+
+            span {
+                color: #475467;
+                font-size: 14px;
+                font-weight: 400;
+
+                span {
+                    color: #52911b;
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                color: #475467;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+    .btn_{
+        button{
+            color: $second-color;
+            padding: 12px 55px;
+        }
     }
 }

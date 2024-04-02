@@ -769,32 +769,47 @@ input[type=checkbox]:checked {
   }
 }
 
-.blogs, .events {
+.blogs,
+.events {
   padding: 40px;
 }
-.blogs .blog-item, .blogs .event-item, .events .blog-item, .events .event-item {
+.blogs .blog-item,
+.blogs .event-item,
+.events .blog-item,
+.events .event-item {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-bottom: 50px;
 }
-.blogs .blog-item img, .blogs .event-item img, .events .blog-item img, .events .event-item img {
+.blogs .blog-item img,
+.blogs .event-item img,
+.events .blog-item img,
+.events .event-item img {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.blogs .blog-item p, .blogs .event-item p, .events .blog-item p, .events .event-item p {
+.blogs .blog-item p,
+.blogs .event-item p,
+.events .blog-item p,
+.events .event-item p {
   max-width: 350px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 @media (max-width: 991px) {
-  .blogs, .events {
+  .blogs,
+  .events {
     padding: 20px !important;
   }
-  .blogs .blog-item, .blogs .event-item, .events .blog-item, .events .event-item {
+  .blogs .blog-item,
+  .blogs .event-item,
+  .events .blog-item,
+  .events .event-item {
     overflow: hidden;
   }
-  .blogs p, .events p {
+  .blogs p,
+  .events p {
     max-width: 250px !important;
   }
 }
@@ -1126,6 +1141,77 @@ input[type=checkbox]:checked {
     top: 100px;
   }
 }
+.register__data {
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.register__data .register__img img {
+  height: 100vh;
+}
+.register__data form {
+  width: 100%;
+}
+.register__data form input, .register__data form select, .register__data form textarea {
+  border: 1px solid #e5e7f2 !important;
+  background: #f7f9fb !important;
+  transition: all 250ms ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 100%;
+  border: none;
+  background: #fff;
+  box-shadow: none;
+  letter-spacing: 0;
+  outline: none;
+  line-height: 50px;
+  height: 50px;
+  padding: 0 20px;
+  text-align: start;
+  font-family: inherit;
+  border-radius: 4px;
+  font-weight: 400;
+}
+.register__data form textarea {
+  height: 120px;
+}
+.register__data form .file__zone {
+  gap: 5px;
+  position: relative;
+  border: 1px solid #d0d5dd !important;
+  border-radius: 8px !important;
+  padding: 16px;
+  background-color: #f7f9fb;
+}
+.register__data form .file__zone input {
+  width: 100%;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+.register__data form .file__zone span {
+  color: #475467;
+  font-size: 14px;
+  font-weight: 400;
+}
+.register__data form .file__zone span span {
+  color: #52911b;
+  font-weight: 700;
+}
+.register__data form .file__zone p {
+  color: #475467;
+  font-size: 12px;
+  font-weight: 400;
+}
+.register__data .btn_ button {
+  color: #F2E8D5;
+  padding: 12px 55px;
+}
+
 nav {
   background-color: transparent;
   width: 100%;
@@ -1246,6 +1332,17 @@ nav .loginType__div {
 }
 @media (max-width: 767px) {
   nav .loginType__div {
+    pad: 10px 8px 10px 15px;
+  }
+}
+nav .loginType__div2 {
+  top: 50px;
+  left: 0;
+  border-radius: 8px;
+  padding: 15px 10px 15px 55px;
+}
+@media (max-width: 767px) {
+  nav .loginType__div2 {
     pad: 10px 8px 10px 15px;
   }
 }

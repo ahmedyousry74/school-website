@@ -302,7 +302,7 @@ input[type="checkbox"]:checked {
 
 .you_will_get {
     height: 850px;
-    background: linear-gradient(148deg, rgba(2, 0, 36, 0.7848273098) 0%, #400a0afc 100%);
+    background: linear-gradient(321deg, #ff1a1a7a 0%, #ff1a1a 100%);
     margin-top: 50px;
     padding: 100px 40px;
 
@@ -674,15 +674,15 @@ input[type="checkbox"]:checked {
         height: 140px;
 
         &:nth-child(1) {
-            background-color: #ffaf40;
+            background-color: #ffaf40 !important;
         }
 
         &:nth-child(2) {
-            background-color: #ff6666;
+            background-color: #ff6666 !important;
         }
 
         &:nth-child(3) {
-            background-color: #95cc47;
+            background-color: #95cc47 !important;
         }
 
         img {
@@ -1465,5 +1465,11 @@ input[type="checkbox"]:checked {
             width: 100% !important;
             padding: 20px;
         }
+    }
+}
+footer{
+    background: linear-gradient(321deg, #ff1a1a7a 0%, #ff1a1a 100%) !important;
+    *{
+        color: $second-color !important;
     }
 }

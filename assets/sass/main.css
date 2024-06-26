@@ -665,7 +665,7 @@ input[type=checkbox]:checked {
   fill: #fff;
 }
 .video__ .video-icon a::before {
-  background: rgba(64, 10, 10, 0.9333333333);
+  background: rgba(255, 26, 26, 0.6);
   width: 150px;
   height: 150px;
   animation-delay: 0.5s;
@@ -682,7 +682,7 @@ input[type=checkbox]:checked {
   transition: all ease 0.3s;
 }
 .video__ .video-icon a::after {
-  background: rgba(64, 10, 10, 0.8745098039);
+  background: rgba(255, 26, 26, 0.4901960784);
   height: 120px;
   width: 120px;
   top: 50%;

@@ -804,7 +804,7 @@ input[type="checkbox"]:checked {
             }
 
             &::before {
-                background: #400a0aee;
+                background: #ff1a1a99;
                 width: 150px;
                 height: 150px;
                 animation-delay: 0.5s;
@@ -828,7 +828,7 @@ input[type="checkbox"]:checked {
             }
 
             &::after {
-                background: #400a0adf;
+                background: #ff1a1a7d;
                 height: 120px;
                 width: 120px;
                 top: 50%;

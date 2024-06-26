@@ -1468,7 +1468,7 @@ input[type="checkbox"]:checked {
     }
 }
 footer{
-    background: linear-gradient(321deg, #ff1a1a7a 0%, #ff1a1a 100%) !important;
+    background: $primary-color !important;
     *{
         color: $second-color !important;
     }

@@ -676,20 +676,16 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-80 {
-  margin-top: 20rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .mt-60 {
   margin-top: 15rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-80 {
+  margin-top: 20rem;
+}
+
+.mt-\[150px\] {
+  margin-top: 150px;
 }
 
 .flex {
@@ -964,11 +960,6 @@ video {
   padding-right: 2.5rem;
 }
 
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -1193,12 +1184,6 @@ video {
 
   .sm\:flex-col {
     flex-direction: column;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:mt-60 {
-    margin-top: 15rem;
   }
 }
 

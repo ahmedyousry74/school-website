@@ -1237,6 +1237,14 @@ footer * {
   color: #fff !important;
 }
 
+.carousel-inner {
+  overflow: initial !important;
+}
+
+.blogs .owl-nav {
+  display: none !important;
+}
+
 nav {
   background-color: transparent;
   width: 100%;

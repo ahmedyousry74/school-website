@@ -1473,3 +1473,11 @@ footer{
         color: $second-color !important;
     }
 }
+.carousel-inner {
+    overflow: initial !important;
+}
+.blogs{
+    .owl-nav{
+        display: none !important;
+    }
+}

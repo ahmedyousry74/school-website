@@ -1147,18 +1147,26 @@ input[type="checkbox"]:checked {
         .hero__info {
             width: 100% !important;
             gap: 6px !important;
+            position: relative;
+            z-index: 9999;
         }
 
         h1 {
             font-size: 25px !important;
+            position: relative;
+            z-index: 9999;
         }
 
         span {
             font-size: 18px !important;
+            position: relative;
+            z-index: 9999;
         }
 
         .hero__img {
             margin-top: 70px !important;
+            position: relative;
+            z-index: 9999;
         }
     }
 
@@ -1480,4 +1488,30 @@ footer{
     .owl-nav{
         display: none !important;
     }
+}
+.carousel-item{
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &::after{
+        position: absolute;
+        content: "";
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+    @media(max-width: 1024px){
+        height: 100%;
+    }
+}
+.hero__info {
+    position: relative;
+    z-index: 99;
+}
+nav{
+    z-index: 999999999;
 }

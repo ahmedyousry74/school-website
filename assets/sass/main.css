@@ -972,15 +972,23 @@ input[type=checkbox]:checked {
   header .hero__info {
     width: 100% !important;
     gap: 6px !important;
+    position: relative;
+    z-index: 9999;
   }
   header h1 {
     font-size: 25px !important;
+    position: relative;
+    z-index: 9999;
   }
   header span {
     font-size: 18px !important;
+    position: relative;
+    z-index: 9999;
   }
   header .hero__img {
     margin-top: 70px !important;
+    position: relative;
+    z-index: 9999;
   }
   .section_below {
     padding: 0 20px !important;
@@ -1245,6 +1253,37 @@ footer * {
   display: none !important;
 }
 
+.carousel-item {
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-item::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+@media (max-width: 1024px) {
+  .carousel-item {
+    height: 100%;
+  }
+}
+
+.hero__info {
+  position: relative;
+  z-index: 99;
+}
+
+nav {
+  z-index: 999999999;
+}
+
 nav {
   background-color: transparent;
   width: 100%;
@@ -1279,7 +1318,7 @@ nav .offcanvas-body ul {
   gap: 8px;
 }
 nav .offcanvas-body ul .nav-item .nav-link {
-  color: #231F20;
+  color: #fff;
   font-weight: 500;
   font-size: 15px;
   transition: 0.3s ease-in-out all;

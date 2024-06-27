@@ -1291,11 +1291,23 @@ nav.inside_pages {
   position: relative !important;
   background-color: #fff;
 }
+nav.inside_pages a {
+  color: #231F20 !important;
+}
+nav.inside_pages a.active {
+  color: #ff0000 !important;
+}
 nav.show {
   background-color: #fff;
   position: fixed !important;
   transition: top 0.3s;
   z-index: 1000;
+}
+nav.show a {
+  color: #231F20 !important;
+}
+nav.show a.active {
+  color: #ff0000 !important;
 }
 nav .colse_ {
   filter: invert(1);

@@ -11,12 +11,24 @@ nav{
     &.inside_pages{
         position: relative !important;
         background-color: $second-color;
+        a{
+            color: $third-color !important;
+            &.active{
+                color: $primary-color !important;
+            }
+        }
     }
     &.show{
         background-color: $second-color;
         position: fixed !important;
         transition: top 0.3s;
         z-index: 1000;
+        a{
+            color: $third-color !important;
+            &.active{
+                color: $primary-color !important;
+            }
+        }
     }
     .colse_{
         filter: invert(1);

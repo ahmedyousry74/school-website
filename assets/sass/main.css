@@ -966,9 +966,6 @@ input[type=checkbox]:checked {
   .navbar .navbar-brand svg path {
     fill: #000 !important;
   }
-  header {
-    padding: 0 20px !important;
-  }
   header .hero__info {
     width: 100% !important;
     gap: 6px !important;
@@ -1133,6 +1130,7 @@ input[type=checkbox]:checked {
   .shape-4 img,
   .shape-5 img {
     opacity: 0.5;
+    display: none;
   }
   .shape-3 {
     top: 480px;
@@ -1263,18 +1261,12 @@ footer * {
 .carousel-item::after {
   position: absolute;
   content: "";
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
   width: 100%;
   top: 0;
   right: 0;
 }
-@media (max-width: 1024px) {
-  .carousel-item {
-    height: 100%;
-  }
-}
-
 .hero__info {
   position: relative;
   z-index: 99;
@@ -1335,6 +1327,11 @@ nav .offcanvas-body ul .nav-item .nav-link::after {
   opacity: 0;
   transition: 0.3s ease-in-out all;
   border-radius: 25px;
+}
+@media (max-width: 991px) {
+  nav .offcanvas-body ul .nav-item .nav-link {
+    color: #231F20;
+  }
 }
 nav .offcanvas-body ul .nav-item .nav-link:hover {
   color: #ff0000;

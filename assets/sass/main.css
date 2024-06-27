@@ -1021,10 +1021,10 @@ input[type=checkbox]:checked {
     width: 100%;
   }
   .features__school .title h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .features__school .title p {
-    font-size: 17px;
+    font-size: 16px;
   }
   .features__school .feature__school {
     margin-top: 25px !important;
@@ -1055,10 +1055,10 @@ input[type=checkbox]:checked {
     width: 100%;
   }
   .discover .title h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .discover .title p {
-    font-size: 17px;
+    font-size: 16px;
   }
   .discover .discover__item {
     width: 100%;
@@ -1070,10 +1070,10 @@ input[type=checkbox]:checked {
     width: 100%;
   }
   .what_we_provide .title h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .what_we_provide .title p {
-    font-size: 17px;
+    font-size: 16px;
   }
   .what_we_provide .infos__ {
     flex-wrap: wrap;
@@ -1110,7 +1110,7 @@ input[type=checkbox]:checked {
     padding: 40px 10px 0 10px !important;
   }
   .testimonials .review__img img {
-    display: none !important;
+    display: none;
   }
   .parteners__ {
     padding: 40px 20px !important;
@@ -1276,6 +1276,28 @@ nav {
   z-index: 999999999;
 }
 
+@media (max-width: 767px) {
+  .reviews__item {
+    flex-direction: column !important;
+  }
+  .review__img {
+    order: 1;
+    height: 200px;
+  }
+  .review__img img {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: block !important;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .review__info {
+    order: 2;
+  }
+}
 nav {
   background-color: transparent;
   width: 100%;
@@ -1313,10 +1335,10 @@ nav .colse_ {
   filter: invert(1);
 }
 nav .offcanvas-body .navbar-brand img {
-  width: 100px;
-  height: 115px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 155px;
+  height: 140px;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
 }
 nav .offcanvas-body ul {
   gap: 8px;
